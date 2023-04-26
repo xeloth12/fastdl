@@ -1,0 +1,78 @@
+$keyvalues
+{
+	"armor_data"
+	{
+		"player_model"			"models\npc\player\Player_wizard.mdl"
+		"player_model_first"		"models\npc\player\First_wizard.mdl"
+    		"player_model_skin" "1"
+	}
+
+	"prop_data"
+	{	
+//		Generated QCT section for Inventory Item
+
+		"position_take_x" 		"0.0"
+		"position_take_y" 		"0.0"
+		"position_take_z" 		"18.0"
+
+		"angle_take_x" 			"0.0"
+		"angle_take_y" 			"270.0"
+		"angle_take_z" 			"-180.0"
+
+		"position_take_x_zoomed" 	"0.0"
+		"position_take_y_zoomed" 	"0.0"
+		"position_take_z_zoomed" 	"30.0"
+
+		"angle_take_x_zoomed" 		"0.0"
+		"angle_take_y_zoomed" 		"630.0"
+		"angle_take_z_zoomed" 		"0.0"
+
+		"rotation_axis_x_zoomed" 	"180.0"
+		"rotation_axis_y_zoomed" 	"0.0"
+		"rotation_axis_z_zoomed" 	"0.0"
+
+		"rotation_speed" 		"50.0"
+
+		"item_name" 			"player_armor_robe_ADV_name"
+		"description" 			"player_armor_robe_ADV_desc"
+		
+		"use_inventory_sound"		"Cloth_Armor_Equip"
+
+		"light_inventory_pos_x" 	"-100.0"
+		"light_inventory_pos_y" 	"100.0"
+		"light_inventory_pos_z" 	"-30.0"
+
+		"light_inventory_dir_x" 	"1.0"
+		"light_inventory_dir_y" 	"0.0"
+		"light_inventory_dir_z" 	"0.0"
+
+		"light_inventory_color_r" 	"1.0"
+		"light_inventory_color_g" 	"1.0"
+		"light_inventory_color_b" 	"1.0"
+
+		"light_inventory_color_a" 	"1.0"
+
+		"light_inventory_radius" 			"500.0"
+		"light_inventory_hotspotradius" 		"10.0"
+		"light_inventory_mediumspotintensityfactor"	"0.2"	
+
+		 "quest_item"	"3"					
+	}
+
+	"entity_data"
+	{
+		"glinting"		"1"
+		"glint_ratio"		"0.8"	
+				
+		"armor_value"			"0.02"
+ 		"intelligence_add"		"2"			// add the value to player'statistic
+//		"presence_factor"		"1"
+//		"stealth_modifier"		"0.25"
+  		"mana_recovery_factor"		"1.25"
+    		"health_recovery_factor"	"1"
+    		skills_required
+ 	 	{
+ 			"extra_mana"	"3"
+ 		}    		
+	}
+}

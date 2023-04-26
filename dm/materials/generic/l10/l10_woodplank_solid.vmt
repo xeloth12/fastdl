@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+//lightmapped version of regular texture for UNbreakable woodplanks
+	"$basetexture" "generic/l10/l10_woodplank_solid"
+	"$bumpmap" "models/l7_planche001/woodplank_solid_normal"
+	"$surfaceprop" "wood"
+	"%keywords" "L10"
+}
