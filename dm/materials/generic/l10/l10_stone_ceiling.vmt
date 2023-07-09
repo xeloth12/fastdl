@@ -1,8 +1,0 @@
-"LightmappedGeneric"
-{
-	//no specular for ceilings
-	"$baseTexture"	"generic/l10/l10_stone_rect"
-	"$surfaceprop" "concrete"
-	"$bumpmap" "generic/l10/l10_stone_rect_normal"
-	"%keywords" "L10"
-}
