@@ -1,0 +1,16 @@
+$keyvalues
+{
+	"prop_data"
+	{
+		"position_take_x" "24"
+		"position_take_y" "-1"
+		"position_take_z" "-3"
+
+		"angle_take_x" "3"
+		"angle_take_y" "210"
+		"angle_take_z" "5"
+
+		"hands" "2"
+		"hands_parameter" "50"
+	}
+}

@@ -1,0 +1,405 @@
+
+
+
+$keyvalues
+{
+	"entity_data"
+	{
+	 "baseattacklength" "150"  //for XANA
+ 	 "armordefenderbase" "0"     //BASE ARMOR WITHOUT ANY ARMOR
+ 	 "basedamagenoweapon" "15"   //BASE DAMAGE FOR XANA ATTACK
+ 	 "basecrithitnoweapon" "1"   //CRITICAL MODIFICATOR FOR XANA ATTACK
+  	"baseimpactothernoweapon" "10000"  //Physical strenght FOR XANA ATTACK
+  	"basepiercingnoweapon" "0."   //Piercing modificator FOR XANA ATTACK
+ 
+  	"Blood_ratio" "0.3"   // Blood size modificator for XANA attack
+ 	
+  	"fadedamagePoisoned_red" "0" 
+  	"fadedamagePoisoned_green" "256" 
+ 	 "fadedamagePoisoned_blue" "0" 
+ 
+ 	 "perc_impal"   "0.8"
+
+	}
+}
+
+
+"combatmovedatas"
+
+{	
+	
+	//*****************************************************************************************************************
+	// XANA
+	//****************************************************************************************************************
+	
+	
+	
+	// XANA : Fastattacks
+	
+	
+	layer_fastattack_xana_A
+	{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"0"		
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"0.5"		
+		"HitPow"	"1"		
+		"cutheadflag"	"1"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"0.5"
+		"push"		"1"
+		"alwayspush"	"0"
+		"breakparade"	"1"	
+		"versus"	"1"
+		"chancetostun"	"0.8"
+	}
+	
+	layer_fastattack_xana_B
+	{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"0"		
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"0.5"		
+		"HitPow"	"1"		
+		"cutheadflag"	"1"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"0.5"
+		"push"		"1"
+		"alwayspush"	"0"
+		"breakparade"	"1"	
+		"versus"	"1"
+		"chancetostun"	"0.8"
+	}
+	
+	layer_fastattack_xana_C
+	{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"0"		
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"0.5"		
+		"HitPow"	"1"		
+		"cutheadflag"	"1"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"0.5"
+		"push"		"1"
+		"alwayspush"	"0"
+		"breakparade"	"1"	
+		"versus"	"1"
+		"chancetostun"	"0.8"
+	}
+	
+	layer_fastattack_xana_E
+	{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"0"		
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"0.5"		
+		"HitPow"	"1"		
+		"cutheadflag"	"1"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"0.5"
+		"push"		"1"
+		"alwayspush"	"0"
+		"breakparade"	"1"	
+		"versus"	"1"
+		"chancetostun"	"0.8"
+	}
+	
+	layer_fastattack_xana_F
+	{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"0"		
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"0.5"		
+		"HitPow"	"1"		
+		"cutheadflag"	"1"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"0.5"
+		"push"		"1"
+		"alwayspush"	"0"
+		"breakparade"	"1"	
+		"versus"	"1"
+		"chancetostun"	"0.8"
+	}
+	
+	
+	
+	// XANA : Bigslsah
+	
+	
+	// Default
+	layer_bigslash_xana_out
+	{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"0"		
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"1"		
+		"HitPow"	"1.5"		
+		"cutheadflag"	"1"
+		"impalflag"	"1"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"3"
+		"push"		"1"
+		"alwayspush"	"0"
+		"breakparade"	"1"	
+		"versus"	"0"
+		"chancetostun"	"0.2"
+		"chancetofall"	"0.9"
+		"critical_enable"	"1"
+	}
+	
+	// Left
+	layer_bigslash_xana_L_out
+	{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"0"		
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"1"		
+		"HitPow"	"1.5"		
+		"cutheadflag"	"1"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"3"
+		"push"		"1"
+		"alwayspush"	"0"
+		"breakparade"	"1"	
+		"versus"	"1"
+		"chancetostun"	"0.8"
+		"critical_enable"	"1"
+	}
+	
+	// Right
+	layer_bigslash_xana_R_out
+	{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"0"		
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"1"		
+		"HitPow"	"1.5"		
+		"cutheadflag"	"1"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"3"
+		"push"		"1"
+		"alwayspush"	"0"
+		"breakparade"	"1"	
+		"versus"	"1"
+		"chancetostun"	"0.8"
+		"critical_enable"	"1"
+	}
+	
+	// Top
+	layer_bigslash_xana_T_out
+	{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"0"		
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"1"		
+		"HitPow"	"1.5"		
+		"cutheadflag"	"1"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"3"
+		"push"		"1"
+		"alwayspush"	"0"
+		"breakparade"	"1"	
+		"versus"	"1"
+		"chancetostun"	"0.8"
+		"critical_enable"	"1"
+	}
+	
+	// Bottom
+	layer_bigslash_xana_B_out
+	{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"0"		
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"1"		
+		"HitPow"	"1.5"		
+		"cutheadflag"	"1"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"3"
+		"push"		"1"
+		"alwayspush"	"0"
+		"breakparade"	"1"	
+		"versus"	"1"
+		"chancetostun"	"0.8"
+		"critical_enable"	"1"
+	}
+	
+	
+	
+	// XANA : Huge attack
+	
+	layer_combo_xana_huge
+	{
+	 "event0"	
+		{
+		"impactdirX"		"0"
+		"impactdirY"		"-1"
+		"impactdirZ"		"0"
+		"impactcoeff"		"2"
+		"HitPow"		"2"	
+		"cutheadflag"		"1"
+		"impalflag"		"0"
+		"backstabflag"		"0"
+		"disarmflag"		"0"
+		"adrenalineadd"		"1"
+		"push"			"1"
+		"alwayspush"		"2"
+		"breakparade"		"1"
+		"criticalblood" 	"1" 
+		"chancetostun"		"0.3"
+		"chancetofall"		"0.4"
+		"critical_enable"	"1"
+		"pushplayercoeff"	"0"
+		"pushplayeraddz"	"0"
+		}	
+	 "event1"	
+		{
+		"impactdirX"		"0"
+		"impactdirY"		"-1"
+		"impactdirZ"		"0"
+		"impactcoeff"		"2"
+		"HitPow"		"2"	
+		"cutheadflag"		"1"
+		"impalflag"		"0"
+		"backstabflag"		"0"
+		"disarmflag"		"0"
+		"adrenalineadd"		"1"
+		"push"			"1"
+		"alwayspush"		"2"
+		"breakparade"		"1"
+		"criticalblood" 	"1" 
+		"chancetostun"		"0.3"
+		"chancetofall"		"0.4"
+		"critical_enable"	"1"
+		"pushplayercoeff"	"0"
+		"pushplayeraddz"	"0"
+		}
+	 "event2"	
+		{
+		"impactdirX"		"0"
+		"impactdirY"		"-1"
+		"impactdirZ"		"0"
+		"impactcoeff"		"2"
+		"HitPow"		"2"	
+		"cutheadflag"		"1"
+		"impalflag"		"0"
+		"backstabflag"		"0"
+		"disarmflag"		"0"
+		"adrenalineadd"		"1"
+		"push"			"1"
+		"alwayspush"		"2"
+		"breakparade"		"1"
+		"criticalblood" 	"1" 
+		"chancetostun"		"0.3"
+		"chancetofall"		"0.4"
+		"critical_enable"	"1"
+		"pushplayercoeff"	"0"
+		"pushplayeraddz"	"0"
+		}	
+	 "event3"	
+		{
+		"impactdirX"		"0"
+		"impactdirY"		"-1"
+		"impactdirZ"		"0"
+		"impactcoeff"		"2"
+		"HitPow"		"2"	
+		"cutheadflag"		"1"
+		"impalflag"		"0"
+		"backstabflag"		"0"
+		"disarmflag"		"0"
+		"adrenalineadd"		"1"
+		"push"			"1"
+		"alwayspush"		"2"
+		"breakparade"		"1"
+		"criticalblood" 	"1" 
+		"chancetostun"		"0.3"
+		"chancetofall"		"0.4"
+		"critical_enable"	"1"
+		"pushplayercoeff"	"0"
+		"pushplayeraddz"	"0"
+		}
+	}
+	
+	
+	
+	// XANA : Rush attack
+	
+	layer_combo_xana_rush
+	
+	{
+	 "event0"	
+		{
+		"impactdirX"		"0"
+		"impactdirY"		"-1"
+		"impactdirZ"		"0"
+		"impactcoeff"		"2"
+		"HitPow"		"2"	
+		"cutheadflag"		"1"
+		"impalflag"		"0"
+		"backstabflag"		"0"
+		"disarmflag"		"0"
+		"adrenalineadd"		"1"
+		"push"			"1"
+		"alwayspush"		"2"
+		"breakparade"		"1"
+		"criticalblood" 	"1" 
+		"chancetostun"		"0.6"
+		"chancetofall"		"0.2"
+		"critical_enable"	"1"
+		"pushplayercoeff"	"143.593"		// Don't change this !  rush attack won't work anymore
+		"pushplayeraddz"	"0.95"			// Don't change this !  rush attack won't work anymore
+		}	
+	 "event1"	
+		{
+		"impactdirX"		"0"
+		"impactdirY"		"-1"
+		"impactdirZ"		"0"
+		"impactcoeff"		"2"
+		"HitPow"		"2"	
+		"cutheadflag"		"1"
+		"impalflag"		"0"
+		"backstabflag"		"0"
+		"disarmflag"		"0"
+		"adrenalineadd"		"1"
+		"push"			"1"
+		"alwayspush"		"2"
+		"breakparade"		"1"
+		"criticalblood" 	"1" 
+		"chancetostun"		"0.5"
+		"chancetofall"		"0.8"
+		"critical_enable"	"1"
+		"pushplayercoeff"	"0"
+		"pushplayeraddz"	"0"
+		}
+	}
+	
+}

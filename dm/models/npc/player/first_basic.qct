@@ -1,0 +1,2436 @@
+$keyvalues
+{
+	"entity_data"
+	{
+	 "baseattacklength" "120"  //for XANA
+ 	 "armordefenderbase" "0.01"     //BASE ARMOR WITHOUT ANY ARMOR
+ 	 "basedamagenoweapon" "10"   //BASE DAMAGE FOR XANA ATTACK
+ 	 "basecrithitnoweapon" "1"   //CRITICAL MODIFICATOR FOR XANA ATTACK
+  	"baseimpactothernoweapon" "10000"  //Physical strenght FOR XANA ATTACK
+  	"basepiercingnoweapon" "0."   //Piercing modificator FOR XANA ATTACK
+ 
+  	"Blood_ratio" "0.3"   // Blood size modificator for XANA attack
+ 	
+  	"fadedamagePoisoned_red" "0" 
+  	"fadedamagePoisoned_green" "256" 
+ 	 "fadedamagePoisoned_blue" "0" 
+ 
+ 	 "perc_impal"   "0.8"
+
+	}
+}
+
+
+"combatmovedatas"
+{
+	
+	
+	//*****************************************************************************************************************
+	// Sword //
+	//************************************************************************************************************************ 
+	
+	
+	
+	
+	
+	// SWORD : Fastattacks
+	
+	layer_fastattack_sword_noshield_A 			// Flourish strike#1
+	{
+		"Event0"
+		{
+			"change_speed"		"1"		// Allow Weapons to Change this Attack Speed
+			"impactdirX"		"0"		// Attack Impact Direction
+			"impactdirY"		"1"		// Attack Impact Direction
+			"impactdirZ"		"0"		// Attack Impact Direction
+			"impactcoeff"		"0.5"		// Base force applied on ragdoll on strike (is then be modified by strike damage size)
+			"HitPow"		"0.7"		// Attack damage bonus
+			"cutheadflag"		"0"		// 1 : attack cuts opponent head
+			"impalflag"		"0"		// 1:  attack triggers impale of the enemy
+			"backstabflag"		"0"		// This attack is considered as a backstab attack
+			"disarmflag"		"0"		// This attack is used to disarm the enemy
+			"adrenalineadd"		"0.5"		// Adrenaline points added to player when this attack hits the enemy
+			"push"			"0"		// this attack push NPC if lot of damages dealt and NPC is stunned
+			"alwayspush"		"0"		// this attack always push npc whatever his state is
+			"breakparade"		"0"		// Will this attack break the NPC parade
+	//		"slowtime_delay"	"0.1"
+	//		"slowtime_duration"	"1.8"
+	//		"slowtime_factor"	"0.1"
+			"chancetostun"		"0"
+			"trail" 		"1"	
+		}
+	}
+	
+	layer_fastattack_sword_noshield_B 	// Flourish strike#2
+	{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"0"		
+		"impactdirY"	"-1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"0.5"	
+		"HitPow"	"0.7"		
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"0.5"
+		"push"		"0"	
+		"alwayspush"	"0"
+		"breakparade"	"0"
+		"chancetostun"	"0"	
+		"trail" 	"1"	
+	}
+	
+	layer_fastattack_sword_noshield_C 	// Flourish strike#3
+	{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"0"		
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"0.5"	
+		"HitPow"	"0.7"		
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"0.5"
+		"push"		"0"
+		"alwayspush"	"0"	
+		"breakparade"	"0"
+		"chancetostun"	"0"	
+		"trail" 	"1"	
+	}
+	
+	layer_fastattack_sword_noshield_D 	// Flourish strike#4
+	{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"0"		
+		"impactdirY"	"-1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"0.5"
+		"HitPow"	"0.7"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"0.5"
+		"push"		"0"
+		"alwayspush"	"0"
+		"breakparade"	"0"
+		"chancetostun"	"0"	
+		"trail" 	"1"	
+	}
+	
+	layer_fastattack_sword_noshield_E 	// Flourish strike#5
+	{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"0"		
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"0.5"		
+		"HitPow"	"0.7"		
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"0.5"
+		"push"		"0"
+		"alwayspush"	"0"
+		"breakparade"	"0"	
+		"chancetostun"	"0"	
+		"trail" 	"1"	
+	}
+	
+	
+	
+	// SWORD : Bigslash
+	
+	// Default
+	layer_bigslash_sword_noshield_idle	// Big Slash idle
+	{
+		"impactdirX"	"0"		
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+	}
+	
+	layer_bigslash_sword_noshield_out	// Big Slash
+	{
+		"change_speed"		"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"		"0"		
+		"impactdirY"		"1"
+		"impactdirZ"		"0"
+		"impactcoeff"		"1"		
+		"HitPow"		"1.5"		
+		"cutheadflag"		"1"
+		"impalflag"		"0"
+		"backstabflag"		"0"
+		"disarmflag"		"0"
+		"adrenalineadd"		"3"
+		"push"			"1"
+		"alwayspush"		"0"
+		"breakparade"		"1"	
+		"versus"		"1"
+		"chancetostun"		"0.8"
+		"critical_enable"	"1"
+		"trail" 		"1"		
+	}
+	
+	// Left
+	layer_bigslash_sword_noshield_L_idle	// Big Slash idle
+	{
+		"impactdirX"	"0"		
+		"impactdirY"	"-1"
+		"impactdirZ"	"0"
+	}
+	
+	layer_bigslash_sword_noshield_L_out	// Big Slash
+	{
+		"change_speed"		"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"		"0"		
+		"impactdirY"		"-1"
+		"impactdirZ"		"0"
+		"impactcoeff"		"1"		
+		"HitPow"		"1.5"		
+		"cutheadflag"		"1"
+		"impalflag"		"0"
+		"backstabflag"		"0"
+		"disarmflag"		"0"
+		"adrenalineadd"		"3"
+		"push"			"1"
+		"alwayspush"		"0"
+		"breakparade"		"1"
+		"versus"		"1"	
+		"chancetostun"		"0.8"	
+		"critical_enable"	"1"
+		"trail" 		"1"	
+	}
+	
+	// right
+	layer_bigslash_sword_noshield_R_idle	// Big Slash idle
+	{
+		"impactdirX"	"0"		
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+	}
+	
+	layer_bigslash_sword_noshield_R_out	// Big Slash
+	{
+		"change_speed"		"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"0"		
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"1"		
+		"HitPow"	"1.5"		
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"1"
+		"push"		"1"
+		"alwayspush"	"0"
+		"breakparade"	"1"
+		"versus"	"1"	
+		"chancetostun"	"0.8"
+		"critical_enable"	"1"
+		"trail" 		"1"		
+	}
+	
+	// Bottom
+	layer_bigslash_sword_noshield_B_idle	// Big Slash idle
+	{
+		"impactdirX"		"1"		
+		"impactdirY"		"0"
+		"impactdirZ"		"0"
+	}
+	
+	layer_bigslash_sword_noshield_B_out	// Big Slash
+	{
+		"change_speed"		"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"		"1"		
+		"impactdirY"		"0"
+		"impactdirZ"		"0"
+		"impactcoeff"		"1"		
+		"HitPow"		"1.5"		
+		"cutheadflag"		"0"
+		"impalflag"		"0"
+		"backstabflag"		"0"
+		"disarmflag"		"0"
+		"adrenalineadd"		"3"
+		"push"			"1"
+		"alwayspush"		"0"
+		"breakparade"		"1"
+		"versus"		"1"
+		"chancetostun"		"0.8"
+		"critical_enable"	"1"
+		"trail" 		"1"	
+		"pushplayercoeff"	"250"		
+	}
+	
+	// Top
+	layer_bigslash_sword_noshield_T_idle	// Big Slash idle
+	{
+		"impactdirX"		"1"		
+		"impactdirY"		"0"
+		"impactdirZ"		"0"
+	}
+	
+	layer_bigslash_sword_noshield_T_out	// Big Slash
+	{
+		"change_speed"		"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"		"1"		
+		"impactdirY"		"0"
+		"impactdirZ"		"0"
+		"impactcoeff"		"1"		
+		"HitPow"		"1.5"		
+		"cutheadflag"		"0"
+		"impalflag"		"0"
+		"backstabflag"		"0"
+		"disarmflag"		"0"
+		"adrenalineadd"		"3"
+		"push"			"1"
+		"alwayspush"		"0"
+		"breakparade"		"1"
+		"versus"		"1"
+		"chancetostun"		"0.8"
+		"critical_enable"	"1"
+		"trail" 		"1"	
+		"pushplayercoeff"	"300"	
+	}
+	
+	
+	
+	// SWORD : Huge 
+	
+	layer_combo_sword_huge_noshield       
+	{
+	 "event0"	
+		{
+		"impactdirX"	"1"
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"4"
+		"HitPow"	"30"	
+		"cutheadflag"	"1"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"0"
+		"push"		"0"
+		"alwayspush"	"0"
+		"breakparade"	"1"
+		"criticalblood" "1" 
+		"chancetostun"	"0.2"
+		"chancetofall"	"0.1"
+		"critical_enable"	"1"
+		"trail" 		"1"	
+		}	
+	 "event1"	
+		{
+		"impactdirX"	"1"
+		"impactdirY"	"-1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"4"
+		"HitPow"	"30"	
+		"cutheadflag"	"1"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"0"
+		"push"		"0"
+		"alwayspush"	"1"
+		"breakparade"	"0"
+		"kill"		"0"
+		"criticalblood" "1" 
+		"chancetostun"	"0.4"
+		"chancetofall"	"0.5"
+		"trail" 		"1"	
+		}
+	}
+	
+	
+	
+	
+	// SWORD : Falling attack
+	
+	layer_combo_sword_fall_noshield_out     // Falling Attack
+	{
+		"impactdirX"	"1"
+		"impactdirY"	"0"
+		"impactdirZ"	"-1"
+		"impactcoeff"	"2"
+		"HitPow"	"2"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"1"
+		"push"		"1"
+		"alwayspush"	"1"
+		"breakparade"	"1"
+		"criticalblood" "1" 
+		"chancetostun"	"0.4"
+		"chancetofall"	"0.6"
+		"critical_enable"	"1"
+		"trail" 		"1"	
+	}
+	
+	
+	// SWORD : Rush attack
+	
+	layer_combo_sword_rush_noshield		
+	{
+	"event0"
+		{
+		"impactdirX"	"1"
+		"impactdirY"	"-1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"0.5"
+		"HitPow"	"0.5"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"1"
+		"push"		"0"
+		"alwayspush"	"1"
+		"breakparade"	"0"
+		"chancetostun"	"0.1"
+		"chancetofall"	"0"
+		"critical_enable"	"1"
+		"trail" 		"1"	
+		"pushplayercoeff"	"500"	
+		}
+	"event1"
+		{
+		"impactdirX"	"1"
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"1.5"
+		"HitPow"	"1.5"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"1"
+		"push"		"0"
+		"alwayspush"	"1"
+		"breakparade"	"0"
+		"criticalblood" "1" 
+		"chancetostun"	"0.4"
+		"chancetofall"	"0"
+		"trail" 		"1"
+		"pushplayercoeff"	"500"	
+		}
+	
+	}
+	
+	
+	// SWORD : Trample attack
+	
+	layer_combo_sword_trample_noshield     		// Trample Attack
+	{
+		"impactdirX"		"0"
+		"impactdirY"		"1"
+		"impactdirZ"		"0"
+		"impactcoeff"		"1.5"
+		"HitPow"		"30"	
+		"cutheadflag"		"0"
+		"impalflag"		"0"
+		"backstabflag"		"0"
+		"disarmflag"		"0"
+		"adrenalineadd"		"0"
+		"push"			"1"
+		"alwayspush"		"1"
+		"breakparade"		"1"
+		"slowtime_delay" 	"0"		// delay after attack starts
+		"slowtime_duration" 	"2.5"		// slow time duration
+		"slowtime_factor" 	"0.5"		// time multiplyer
+		"criticalblood" 	"1"		// 1: spwan maximum amout of blood
+		"chancetostun"		"0.1"
+		"chancetofall"		"0.9"	
+		"critical_enable"	"1"
+		"trail" 		"1"	
+	}
+	
+	
+	// SWORD : Disarm
+	
+	layer_combo_sword_disarm_noshield    // Disarm
+	{
+		"impactdirX"	"1"
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"0"
+		"HitPow"	"0"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"1"
+		"adrenalineadd"	"8"
+		"push"		"0"
+		"alwayspush"	"0"
+	}
+	
+	// SWORD : Impal
+	
+	layer_Impal_sword_noshield_in 		
+	{
+		"impactdirX"		"1"
+		"impactdirY"		"0"
+		"impactdirZ"		"-1"
+		"impactcoeff"		"1"
+		"HitPow"		"35"	
+		"cutheadflag"		"0"
+		"impalflag"		"1"
+		"backstabflag"		"0"
+		"disarmflag"		"0"
+		"adrenalineadd"		"0"
+		"push"			"0"
+		"criticalblood" 	"1" 
+		"pushplayercoeff"	"0.2"	
+		"critical_enable"	"1"
+		"trail" 		"1"	
+	}
+	
+	
+	// SWORD : Ground Impal
+	
+	layer_Ground_Impal_sword_noshield_idle 		 
+	{
+		"impactdirX"	"1"
+		"impactdirY"	"0"
+		"impactdirZ"	"0"
+		"impactcoeff"	"1"
+		"HitPow"	"20"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"2"
+		"push"		"0"	
+		"criticalblood" "1" 
+	}
+	
+	
+	// SWORD : Cyclope Impal
+	
+	layer_Impal_cyclope_sword_noshield_idle   
+	{
+	 "impactdirX"  "1"
+	 "impactdirY"  "0"
+	 "impactdirZ"  "0"
+	 "impactcoeff"  "1"
+	 "HitPow"  "35" 
+	 "cutheadflag"  "0"
+	 "impalflag"  "1"
+	 "backstabflag"  "0"
+	 "disarmflag"  "0"
+	 "adrenalineadd"  "0"
+	 "push"   "0"
+	 "criticalblood"  "1" 
+	 "pushplayercoeff" "0.2" 
+	 "critical_enable" "1"
+	 "trail"   "1" 
+	}
+	
+	
+	// SWORD : Behead
+	
+	layer_behead_sword_noshield_out		
+	{
+		"impactdirX"	"0"		
+		"impactdirY"	"-1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"1"
+		"HitPow"	"35"	
+		"cutheadflag"	"1"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"0"
+		"push"		"0"
+		"criticalblood" "1" 
+		"trail" 		"1"		
+	}
+	
+	
+	// SWORD : Versus
+	
+	"layer_sword_versus_noshield_l_out"
+	{
+		"adrenalineadd"	"6"
+	}
+	
+	"layer_sword_versus_noshield_r_out"
+	{
+		"adrenalineadd"	"6"
+	}
+	
+	
+	
+	
+	// *****************************************************************************************************************************
+	// SHIELD
+	// *****************************************************************************************************************************
+	
+	
+	
+	// SHIELD : Fastattacks
+	
+	layer_fastattack_sword_shield_A 	// Flourish strike#1
+	{
+		"Event0"
+		{
+			"change_speed"		"1"		// Allow Weapons to Change this Attack Speed
+			"impactdirX"		"0"		// Attack Impact Direction
+			"impactdirY"		"1"		// Attack Impact Direction
+			"impactdirZ"		"0"		// Attack Impact Direction
+			"impactcoeff"		"0.5"		// Base force applied on ragdoll on strike (is then be modified by strike damage size)
+			"HitPow"		"0.7"		// Attack damage bonus
+			"cutheadflag"		"0"		// 1 : attack cuts opponent head
+			"impalflag"		"0"		// 1:  attack triggers impale of the enemy
+			"backstabflag"		"0"		// This attack is considered as a backstab attack
+			"disarmflag"		"0"		// This attack is used to disarm the enemy
+			"adrenalineadd"		"0.5"		// Adrenaline points added to player when this attack hits the enemy
+			"push"			"0"		// this attack push NPC if lot of damages dealt and NPC is stunned
+			"alwayspush"		"0"		// this attack always push npc whatever his state is
+			"breakparade"		"0"		// Will this attack break the NPC parade
+			"slowtime_delay"	"0.1"
+			"slowtime_duration"	"1.8"
+			"slowtime_factor"	"0.1"
+			"chancetostun"		"0"
+	"trail" 		"1"		
+		}
+	}
+	
+	layer_fastattack_sword_shield_B 	// Flourish strike#2
+	{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"0"		
+		"impactdirY"	"-1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"0.5"	
+		"HitPow"	"0.7"		
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"0.5"
+		"push"		"0"	
+		"alwayspush"	"0"
+		"breakparade"	"0"
+		"chancetostun"	"0"	
+	"trail" 		"1"	
+	}
+	
+	layer_fastattack_sword_shield_C 	// Flourish strike#3
+	{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"0"		
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"0.5"	
+		"HitPow"	"0.7"		
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"0.5"
+		"push"		"0"
+		"alwayspush"	"0"	
+		"breakparade"	"0"
+		"chancetostun"	"0"	
+	"trail" 		"1"	
+	}
+	
+	layer_fastattack_sword_shield_D 	// Flourish strike#4
+	{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"0"		
+		"impactdirY"	"-1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"0.5"
+		"HitPow"	"0.7"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"0.5"
+		"push"		"0"
+		"alwayspush"	"0"
+		"breakparade"	"0"
+		"chancetostun"	"0"	
+	"trail" 		"1"	
+	}
+	
+	layer_fastattack_sword_shield_E 	// Flourish strike#5
+	{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"0"		
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"0.5"		
+		"HitPow"	"0.7"		
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"0.5"
+		"push"		"0"
+		"alwayspush"	"0"
+		"breakparade"	"0"	
+		"chancetostun"	"0"	
+	"trail" 		"1"	
+	}
+	
+	
+	// SHIELD : Bigslashs
+	
+	
+	// default
+	layer_bigslash_sword_shield_idle	// Big Slash idle
+	{
+		"impactdirX"	"0"		
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+	}
+	
+	layer_bigslash_sword_shield_out	// Big Slash
+	{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"0"		
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"1"		
+		"HitPow"	"1.5"		
+		"cutheadflag"	"1"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"1"
+		"push"		"1"
+		"alwayspush"	"0"
+		"breakparade"	"1"	
+		"versus"	"1"
+		"chancetostun"	"0.8"
+		"critical_enable"	"1"	
+	"trail" 		"1"	
+	}
+	
+	// Left
+	layer_bigslash_sword_shield_L_out	// Big Slash
+	{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"0"		
+		"impactdirY"	"-1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"1"		
+		"HitPow"	"1.5"		
+		"cutheadflag"	"1"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"1"
+		"push"		"1"
+		"alwayspush"	"0"
+		"breakparade"	"1"
+		"versus"	"1"	
+		"chancetostun"	"0.8"
+		"critical_enable"	"1"
+	"trail" 		"1"		
+	}
+	
+	// Right
+	layer_bigslash_sword_shield_R_out	// Big Slash
+	{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"0"		
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"1"		
+		"HitPow"	"1.5"		
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"1"
+		"push"		"1"
+		"alwayspush"	"0"
+		"breakparade"	"1"
+		"versus"	"1"	
+		"chancetostun"	"0.8"
+		"critical_enable"	"1"
+	"trail" 		"1"		
+	}
+	
+	// Bottom
+	layer_bigslash_sword_shield_B_out		// Big Slash
+	{
+		"change_speed"		"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"		"1"		
+		"impactdirY"		"0"
+		"impactdirZ"		"0"
+		"impactcoeff"		"1"		
+		"HitPow"		"1.5"		
+		"cutheadflag"		"0"
+		"impalflag"		"0"
+		"backstabflag"		"0"
+		"disarmflag"		"0"
+		"adrenalineadd"		"3"
+		"push"			"1"
+		"alwayspush"		"0"
+		"breakparade"		"1"
+		"versus"		"1"
+		"pushplayercoeff"	"1"	
+		"chancetostun"		"0.8"
+		"critical_enable"	"1"
+		"trail" 		"1"
+		"pushplayercoeff"	"250"		
+	}
+	
+	
+	// Top
+	layer_bigslash_sword_shield_T_out		// Big Slash
+	{
+		"change_speed"		"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"		"1"		
+		"impactdirY"		"0"
+		"impactdirZ"		"0"
+		"impactcoeff"		"1"		
+		"HitPow"		"1.5"		
+		"cutheadflag"		"0"
+		"impalflag"		"0"
+		"backstabflag"		"0"
+		"disarmflag"		"0"
+		"adrenalineadd"		"3"
+		"push"			"1"
+		"alwayspush"		"0"
+		"breakparade"		"1"
+		"versus"		"1"
+		"pushplayercoeff"	"1"	
+		"chancetostun"		"0.8"
+		"critical_enable"	"1"	
+		"trail" 		"1"	
+		"pushplayercoeff"	"300"
+	}
+	
+	
+	
+	// SHIELD : Huge
+	
+	layer_combo_sword_huge_shield      	 	// Huge Slash
+	{
+	 "event0"	
+		{
+		"impactdirX"	"1"
+		"impactdirY"	"0"
+		"impactdirZ"	"0"
+		"impactcoeff"	"3"
+		"HitPow"	"30"	
+		"cutheadflag"	"1"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"0"
+		"push"		"0"
+		"alwayspush"	"0"
+		"breakparade"	"1"
+		"criticalblood" "1" 
+		"chancetostun"	"0.2"
+		"chancetofall"	"0.1"
+		"critical_enable"	"1"
+	"trail" 		"1"	
+		}	
+	 "event1"	
+		{
+		"impactdirX"	"1"
+		"impactdirY"	"0"
+		"impactdirZ"	"0"
+		"impactcoeff"	"3"
+		"HitPow"	"30"	
+		"cutheadflag"	"1"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"0"
+		"push"		"0"
+		"alwayspush"	"1"
+		"breakparade"	"0"
+		"kill"		"0"
+		"criticalblood" "1" 
+		"chancetostun"	"0.4"
+		"chancetofall"	"0.5"
+	"trail" 		"1"	
+		}
+	}
+	
+	// SHIELD : Falling attack
+	
+	layer_combo_sword_fall_shield_out     	// Falling Attack
+	{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"1"
+		"impactdirY"	"0"
+		"impactdirZ"	"-1"
+		"impactcoeff"	"15"
+		"HitPow"	"1.5"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"3"
+		"push"		"1"
+		"alwayspush"	"1"
+		"breakparade"	"1"
+		"criticalblood" "1" 
+		"chancetostun"	"0"
+		"chancetofall"	"0.6"
+		"critical_enable"	"1"
+	"trail" 		"1"	
+	}
+	
+	// SHIELD : Rush attack
+	
+	layer_combo_sword_rush_shield		// Rush Attack
+	{
+	"event0"
+		{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"1"
+		"impactdirY"	"0"
+		"impactdirZ"	"-1"
+		"impactcoeff"	"2"
+		"HitPow"	"0.5"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"1"
+		"push"		"0"
+		"alwayspush"	"1"
+		"breakparade"	"0"
+		"chancetostun"	"0.2"
+		"chancetofall"	"0"
+		"critical_enable"	"1"
+		"trail" 		"1"
+		"pushplayercoeff"	"500"	
+		}
+	"event1"
+		{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"1"
+		"impactdirY"	"0"
+		"impactdirZ"	"-1"
+		"impactcoeff"	"2"
+		"HitPow"	"1.5"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"2"
+		"push"		"0"
+		"alwayspush"	"1"
+		"breakparade"	"0"
+		"criticalblood" "1" 
+		"chancetostun"	"0.5"
+		"chancetofall"	"0"
+		"trail" 		"1"
+		"pushplayercoeff"	"500"	
+		}
+	
+	}
+	
+	
+	// SHIELD : Trample
+	
+	layer_combo_sword_trample_shield     		// Trample Attack
+	{
+		"impactdirX"		"0"
+		"impactdirY"		"1"
+		"impactdirZ"		"0"
+		"impactcoeff"		"2"
+		"HitPow"		"30"	
+		"cutheadflag"		"0"
+		"impalflag"		"0"
+		"backstabflag"		"0"
+		"disarmflag"		"0"
+		"adrenalineadd"		"0"
+		"push"			"1"
+		"alwayspush"		"1"
+		"breakparade"		"1"
+		"slowtime_delay" 	"0"		// delay after attack starts
+		"slowtime_duration" 	"2.5"		// slow time duration
+		"slowtime_factor" 	"0.5"		// time multiplyer
+		"criticalblood" 	"1"		// 1: spwan maximum amout of blood
+		"chancetostun"	"0.1"
+		"chancetofall"	"0.9"	
+		"critical_enable"	"1"
+	}
+	
+	
+	
+	// SHIELD : Disarm
+	
+	layer_combo_sword_disarm_shield    // Disarm
+	{
+		"impactdirX"	"1"
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"0"
+		"HitPow"	"0"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"1"
+		"adrenalineadd"	"8"
+		"push"		"0"
+		"alwayspush"	"0"
+	}
+	
+	
+	// SHIELD : Bash
+	
+	layer_parry_sword_shield_bash     		
+	{
+		"impactdirX"	"1"
+		"impactdirY"	"0"
+		"impactdirZ"	"-1"
+		"impactcoeff"	"2"
+		"HitPow"	"0.01"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"0"
+		"push"		"1"
+		"alwayspush"	"1"
+		"breakparade"	"1"
+		"criticalblood" "1" 
+		"chancetostun"	"0.4"
+		"chancetofall"	"0"
+	
+	}
+	
+	
+	
+	// SHIELD : Impal
+	
+	layer_Impal_sword_shield_in 			// Impale
+	{
+		"impactdirX"		"1"
+		"impactdirY"		"0"
+		"impactdirZ"		"-1"
+		"impactcoeff"		"2"
+		"HitPow"		"35"	
+		"cutheadflag"		"0"
+		"impalflag"		"1"
+		"backstabflag"		"0"
+		"disarmflag"		"0"
+		"adrenalineadd"		"0"
+		"push"			"0"
+		"criticalblood" 	"1" 
+		"pushplayercoeff"	"0.2"	
+	}
+	
+	
+	// SHIELD : Ground impal
+	
+	layer_Ground_Impal_sword_shield_idle 		// Ground Impale 
+	{
+		"impactdirX"	"1"
+		"impactdirY"	"0"
+		"impactdirZ"	"0"
+		"impactcoeff"	"2"
+		"HitPow"	"20"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"2"
+		"push"		"0"	
+		"criticalblood" "1" 
+	}
+	
+	
+	// SHIELD : Behead
+	
+	layer_behead_sword_shield_out			// Behead
+	{
+		"impactdirX"	"0"		
+		"impactdirY"	"-1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"2"
+		"HitPow"	"35"	
+		"cutheadflag"	"1"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"0"
+		"push"		"0"
+		"criticalblood" "1" 	
+	"trail" 		"1"	
+	}
+	
+	
+	
+	// SHIELD : Cyclope Impal
+	
+	layer_Impal_cyclope_sword_shield_idle   
+	{
+	 "impactdirX"  "1"
+	 "impactdirY"  "0"
+	 "impactdirZ"  "0"
+	 "impactcoeff"  "1"
+	 "HitPow"  "35" 
+	 "cutheadflag"  "0"
+	 "impalflag"  "1"
+	 "backstabflag"  "0"
+	 "disarmflag"  "0"
+	 "adrenalineadd"  "0"
+	 "push"   "0"
+	 "criticalblood"  "1" 
+	 "pushplayercoeff" "0.2" 
+	 "critical_enable" "1"
+	 "trail"   "1" 
+	}
+	
+	
+	
+	// SHIELD : Versus
+	
+	"layer_sword_versus_shield_l_out"
+	{
+		"adrenalineadd"	"6"
+	}
+	
+	"layer_sword_versus_shield_r_out"
+	{
+		"adrenalineadd"	"6"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	//****************************************************************************************************************************
+	// Daggers //
+	//***************************************************************************************************************************
+	
+	
+	
+	
+	// DAGGERS : Fastattacks
+	
+	
+	layer_fastattack_daggers_A	
+	{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"0"		
+		"impactdirY"	"-1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"0.5"		
+		"HitPow"	"0.7"		
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"0.5"
+		"push"		"1"
+		"alwayspush"	"0"
+		"breakparade"	"0"
+		"versus"	"0"	
+		"chancetostun"	"0"
+		"trail" 	"1"
+	}
+	
+	layer_fastattack_daggers_B
+	{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"0"		
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"0.5"		
+		"HitPow"	"0.7"		
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"0.5"
+		"push"		"1"
+		"alwayspush"	"0"
+		"breakparade"	"0"
+		"versus"	"0"
+		"chancetostun"	"0"
+		"trail" 	"1"		
+	}
+	
+	layer_fastattack_daggers_C
+	{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"0"		
+		"impactdirY"	"-1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"0.5"		
+		"HitPow"	"0.7"		
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"0.5"
+		"push"		"1"
+		"alwayspush"	"0"
+		"breakparade"	"0"
+		"versus"	"0"	
+		"chancetostun"	"0"
+		"trail" 	"1"	
+	}
+	
+	layer_fastattack_daggers_D
+	{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"1"		
+		"impactdirY"	"0"
+		"impactdirZ"	"0"
+		"impactcoeff"	"0.5"		
+		"HitPow"	"0.7"		
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"0.5"
+		"push"		"1"
+		"alwayspush"	"0"
+		"breakparade"	"0"
+		"versus"	"0"
+		"chancetostun"	"0"
+		"trail" 	"1"	
+	}
+	
+	layer_fastattack_daggers_E
+	{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"1"		
+		"impactdirY"	"0"
+		"impactdirZ"	"0"
+		"impactcoeff"	"0.5"		
+		"HitPow"	"0.7"		
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"0.5"
+		"push"		"1"
+		"alwayspush"	"0"
+		"breakparade"	"0"
+		"versus"	"0"	
+		"chancetostun"	"0"
+		"trail" 	"1"		
+	}
+	
+	
+	
+	// DAGGERS : Bigslash
+	
+	// Default
+	layer_bigslash_Daggers_out
+	{
+	"event0"
+		{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"1"
+		"impactdirY"	"0"
+		"impactdirZ"	"-1"
+		"impactcoeff"	"1"
+		"HitPow"	"1.5"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"		"1.5"
+		"push"		"0"
+		"alwayspush"	"1"
+		"breakparade"	"0"
+		"versus"	"1"
+		"chancetostun"	"0.8"	
+		"critical_enable"	"1"
+		"trail" 	"1"
+		}
+	"event1"
+		{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"1"
+		"impactdirY"	"0"
+		"impactdirZ"	"-1"
+		"impactcoeff"	"1"
+		"HitPow"	"1.5"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"		"1.5"
+		"push"		"0"
+		"alwayspush"	"1"
+		"breakparade"	"0"
+		"criticalblood" "1" 
+		"versus"	"1"
+		"chancetostun"	"0.8"	
+		"trail" 	"1"
+		}
+	
+	}
+	
+	
+	// Left
+	layer_bigslash_Daggers_L_out
+	{
+	"event0"
+		{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"1"
+		"impactdirY"	"0"
+		"impactdirZ"	"-1"
+		"impactcoeff"	"1"
+		"HitPow"	"1.5"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"		"1.5"
+		"push"		"0"
+		"alwayspush"	"1"
+		"breakparade"	"0"
+		"versus"	"1"
+		"chancetostun"	"0.8"	
+		"critical_enable"	"1"
+		"trail" 	"1"
+		}
+	"event1"
+		{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"1"
+		"impactdirY"	"0"
+		"impactdirZ"	"-1"
+		"impactcoeff"	"1"
+		"HitPow"	"1.5"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"		"1.5"
+		"push"		"0"
+		"alwayspush"	"1"
+		"breakparade"	"0"
+		"criticalblood" "1" 
+		"versus"	"1"
+		"chancetostun"	"0.8"
+		"trail" 	"1"	
+		}
+	
+	}
+	
+	
+	// Right
+	layer_bigslash_Daggers_R_out
+	{
+	"event0"
+		{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"1"
+		"impactdirY"	"0"
+		"impactdirZ"	"-1"
+		"impactcoeff"	"1"
+		"HitPow"	"1.5"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"		"1.5"
+		"push"		"0"
+		"alwayspush"	"1"
+		"breakparade"	"0"
+		"versus"	"1"
+		"chancetostun"	"0.8"	
+		"critical_enable"	"1"
+		"trail" 	"1"
+		}
+	"event1"
+		{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"1"
+		"impactdirY"	"0"
+		"impactdirZ"	"-1"
+		"impactcoeff"	"1"
+		"HitPow"	"1.5"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"		"1.5"
+		"push"		"0"
+		"alwayspush"	"1"
+		"breakparade"	"0"
+		"criticalblood" "1" 
+		"versus"	"1"
+		"chancetostun"	"0.8"
+		"trail" 	"1"
+		}
+	
+	}
+	
+	
+	// Bottom
+	layer_bigslash_Daggers_B_out
+	{
+	"event0"
+		{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"1"
+		"impactdirY"	"0"
+		"impactdirZ"	"-1"
+		"impactcoeff"	"1"
+		"HitPow"	"1.5"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"		"1.5"
+		"push"		"0"
+		"alwayspush"	"1"
+		"breakparade"	"0"
+		"versus"	"1"
+		"chancetostun"	"0.8"	
+		"critical_enable"	"1"
+		"trail" 	"1"
+		"pushplayercoeff"	"300"
+		}
+	"event1"
+		{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"1"
+		"impactdirY"	"0"
+		"impactdirZ"	"-1"
+		"impactcoeff"	"1"
+		"HitPow"	"1.5"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"		"1.5"
+		"push"		"0"
+		"alwayspush"	"1"
+		"breakparade"	"0"
+		"criticalblood" "1" 
+		"versus"	"1"
+		"chancetostun"	"0.8"
+		"trail" 	"1"
+		}
+	
+	}
+	
+	// Top
+	layer_bigslash_Daggers_T_out
+	{
+	"event0"
+		{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"1"
+		"impactdirY"	"0"
+		"impactdirZ"	"-1"
+		"impactcoeff"	"1"
+		"HitPow"	"1.5"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"		"1.5"
+		"push"		"0"
+		"alwayspush"	"1"
+		"breakparade"	"0"
+		"versus"	"1"
+		"chancetostun"	"0.8"	
+		"critical_enable"	"1"
+		"trail" 	"1"
+		}
+	"event1"
+		{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"1"
+		"impactdirY"	"0"
+		"impactdirZ"	"-1"
+		"impactcoeff"	"1"
+		"HitPow"	"1.5"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"		"1.5"
+		"push"		"0"
+		"alwayspush"	"1"
+		"breakparade"	"0"
+		"criticalblood" "1" 
+		"versus"	"1"
+		"chancetostun"	"0.8"
+		"trail" 	"1"
+		"pushplayercoeff"	"300"
+		}
+	
+	}
+	
+	
+	
+	
+	
+	// DAGGERS : Huge
+	
+	layer_combo_daggers_huge
+	{
+	"event0"
+		{
+		"impactdirX"		"1"
+		"impactdirY"		"0"
+		"impactdirZ"		"-1"
+		"impactcoeff"		"2"
+		"HitPow"		"60"	
+		"cutheadflag"		"1"
+		"impalflag"		"0"
+		"backstabflag"		"0"
+		"disarmflag"		"0"
+		"adrenalineadd"		"0"
+		"push"			"0"
+		"alwayspush"		"0"
+		"breakparade"		"1"
+		"criticalblood" 	"1" 
+		"pushplayercoeff"	"0.5"
+		"chancetostun"		"0.8"	
+		"critical_enable"	"1"
+		"trail" 	"1"
+		}
+	"event1"
+		{
+		"impactdirX"	"1"
+		"impactdirY"	"0"
+		"impactdirZ"	"-1"
+		"impactcoeff"	"2"
+		"HitPow"	"60"	
+		"cutheadflag"	"1"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"0"
+		"push"		"0"
+		"alwayspush"	"0"
+		"breakparade"	"1"
+		"criticalblood" "1" 
+		"chancetostun"	"0.8"
+		"trail" 	"1"
+		}
+	
+	}
+	
+	// DAGGERS : Rush attack
+	
+	layer_combo_daggers_rush
+	{
+	"event0"
+		{
+		"impactdirX"	"1"
+		"impactdirY"	"0"
+		"impactdirZ"	"-1"
+		"impactcoeff"	"2"
+		"HitPow"	"0.5"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"0.5"
+		"push"		"0"
+		"alwayspush"	"1"
+		"breakparade"	"0"
+		"chancetostun"	"0.8"	
+		"critical_enable"	"1"
+		"trail" 	"1"
+		"pushplayercoeff"	"500"
+		}
+	"event1"
+		{
+		"impactdirX"	"1"
+		"impactdirY"	"0"
+		"impactdirZ"	"-1"
+		"impactcoeff"	"2"
+		"HitPow"	"1.5"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"0.5"
+		"push"		"0"
+		"alwayspush"	"1"
+		"breakparade"	"0"
+		"criticalblood" "1" 
+		"chancetostun"	"0.8"
+		"trail" 	"1"
+		"pushplayercoeff"	"200"
+		}
+	
+	}
+	
+	
+	// DAGGERS : Falling attack
+	
+	layer_combo_daggers_fall_out
+	{
+	"event0"
+		{
+		"impactdirX"	"1"
+		"impactdirY"	"0"
+		"impactdirZ"	"-1"
+		"impactcoeff"	"2"
+		"HitPow"	"2"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"2"
+		"push"		"0"
+		"alwayspush"	"1"
+		"breakparade"	"0"
+		"chancetostun"	"0.4"
+		"chancetofall"	"0.8"	
+		"critical_enable"	"1"
+		"trail" 	"1"
+		}
+	
+	
+	}
+	
+	// DAGGERS : Trample attack
+	
+	layer_combo_daggers_trample
+	
+	{
+		"impactdirX"		"0"
+		"impactdirY"		"1"
+		"impactdirZ"		"0"
+		"impactcoeff"		"2"
+		"HitPow"		"30"	
+		"cutheadflag"		"0"
+		"impalflag"		"0"
+		"backstabflag"		"0"
+		"disarmflag"		"0"
+		"adrenalineadd"		"0"
+		"push"			"1"
+		"alwayspush"		"1"
+		"breakparade"		"1"
+		"slowtime_delay" 	"0"		// delay after attack starts
+		"slowtime_duration" 	"2.5"		// slow time duration
+		"slowtime_factor" 	"0.5"		// time multiplyer
+		"criticalblood" 	"1"		// 1: spwan maximum amout of blood
+		"chancetostun"		"0.1"
+		"chancetofall"		"0.9"	
+		"critical_enable"	"1"
+		"trail" 		"1"
+	}
+	
+	
+	// DAGGERS : Ground Impal
+	
+	layer_Ground_Impal_daggers_idle 		 
+	{
+		"impactdirX"	"1"
+		"impactdirY"	"0"
+		"impactdirZ"	"0"
+		"impactcoeff"	"2"
+		"HitPow"	"10"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"2"
+		"push"		"0"	
+		"criticalblood" "1"
+		"trail" 	"1"
+	}
+	
+	
+	// DAGGERS : Behead
+	
+	layer_behead_daggers_out		// Behead
+	{
+		"impactdirX"	"1"		
+		"impactdirY"	"0"
+		"impactdirZ"	"0"
+		"impactcoeff"	"2"
+		"HitPow"	"1"	
+		"cutheadflag"	"1"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"0"
+		"push"		"0"
+		"criticalblood" "1" 	
+		"chancetostun"	"0.8"
+	}
+	
+	
+	
+	// DAGGERS : Backstab
+	
+	layer_backstab_out
+	{
+	"event0"
+		{
+		"backstabflag"	"1"
+		"adrenalineadd"	"0"
+		}
+	"event1"
+		{
+		"backstabflag"	"1"
+		"HitPow"	"1"
+		"adrenalineadd"	"3"
+		}
+	
+	}
+	
+	
+	
+	
+	// DAGGERS : Versus
+	
+	"layer_daggers_versus_l_out"
+	{
+		"adrenalineadd"	"6"
+	}
+	
+	"layer_daggers_versus_r_out"
+	{
+		"adrenalineadd"	"6"
+	}
+	
+	
+	// DAGGERS : Throw
+	"layer_throw_daggers_out"
+	{
+		"impactdirX"	"1"
+		"impactdirY"	"0"
+		"impactdirZ"	"-1"
+		"impactcoeff"	"2"
+		"HitPow"	"15"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"2"
+		"push"		"0"
+		"alwayspush"	"0"
+		"breakparade"	"1"
+		"criticalblood" "1" 
+		"chancetostun"	"0.8"	
+	}
+
+	"layer_throw_daggers_out_adrenaline"
+	{
+		"impactdirX"	"1"
+		"impactdirY"	"0"
+		"impactdirZ"	"-1"
+		"impactcoeff"	"2"
+		"HitPow"	"60"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"0"
+		"push"		"0"
+		"alwayspush"	"0"
+		"breakparade"	"1"
+		"criticalblood" "1" 
+		"chancetostun"	"0.8"	
+	}
+	
+	
+	
+	// ********************************************************************************************************************
+	// BOW
+	// ********************************************************************************************************************
+	
+	
+	
+	// BOW : Shoot
+	
+	"layer_bowattack_shoot"
+	{
+		"impactdirX"	"1"		// replace by the velocity of the arrow
+		"impactdirY"	"0"
+		"impactdirZ"	"0"
+		"impactcoeff"	"1"
+		"HitPow"	"1.5"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"2"
+		"push"		"0"	
+		"criticalblood" "1" 
+	}
+	
+	// BOW : Fatalitie
+	
+	"layer_bowattack_fatalitie_out"
+		{
+		"impactdirX"	"1"
+		"impactdirY"	"0"
+		"impactdirZ"	"0"
+		"impactcoeff"	"2"
+		"HitPow"	"30"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"0"
+		"push"		"0"
+		"alwayspush"	"0"
+		"breakparade"	"1"
+		"criticalblood" "1" 
+		"critical_enable"	"1"
+		}
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	//****************************************************************************************************************************
+	// Staff //
+	//****************************************************************************************************************************
+	 
+	 
+	 
+	// STAFF : Fastattacks 
+	
+	
+	layer_fastattack_Staff_A 			// Flourish strike#1
+	{
+		"Event0"
+		{
+		"change_speed"			"1"		// Allow Weapons to Change this Attack Speed
+			"impactdirX"		"0"		// Attack Impact Direction
+			"impactdirY"		"1"		// Attack Impact Direction
+			"impactdirZ"		"0"		// Attack Impact Direction
+			"impactcoeff"		"0.5"		// Base force applied on ragdoll on strike (is then be modified by strike damage size)
+			"HitPow"		"0.7"		// Attack damage bonus
+			"cutheadflag"		"0"		// 1 : attack cuts opponent head
+			"impalflag"		"0"		// 1:  attack triggers impale of the enemy
+			"backstabflag"		"0"		// This attack is considered as a backstab attack
+			"disarmflag"		"0"		// This attack is used to disarm the enemy
+			"adrenalineadd"		"0.5"		// Adrenaline points added to player when this attack hits the enemy
+			"push"			"0"		// this attack push NPC if lot of damages dealt and NPC is stunned
+			"alwayspush"		"0"		// 1 > relative to damages      2 > always push npc
+			"breakparade"		"0"		// Will this attack break the NPC parade
+			"slowtime_delay" 	"0.1"
+			"slowtime_duration" 	"1.8"
+			"slowtime_factor" 	"0.1"
+			"chancetostun"		"0.1"
+			"chancetofall"		"0.1"
+			"trail" 		"1"
+		}
+	}
+	
+	layer_fastattack_Staff_B 		// Flourish strike#2
+	{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"1"		
+		"impactdirY"	"0"
+		"impactdirZ"	"0"
+		"impactcoeff"	"0.5"	
+		"HitPow"	"0.7"		
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"0.5"
+		"push"		"0"	
+		"alwayspush"	"0"
+		"breakparade"	"0"
+		"chancetostun"	"0.05"
+		"chancetofall"	"0.1"
+		"trail" 	"1"
+	}
+	
+	layer_fastattack_Staff_C 		// Flourish strike#3
+	{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"0"		
+		"impactdirY"	"-1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"0.5"	
+		"HitPow"	"0.7"		
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"0.5"
+		"push"		"0"
+		"alwayspush"	"0"	
+		"breakparade"	"0"
+		"chancetostun"	"0.05"
+		"chancetofall"	"0.1"
+		"trail" 	"1"
+	}
+	
+	layer_fastattack_Staff_D 		// Flourish strike#4
+	{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"1"		
+		"impactdirY"	"0"
+		"impactdirZ"	"0"
+		"impactcoeff"	"0.5"
+		"HitPow"	"0.7"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"0.5"
+		"push"		"0"
+		"alwayspush"	"0"
+		"breakparade"	"0"
+		"chancetostun"	"0.05"
+		"chancetofall"	"0.1"
+		"trail" 	"1"
+	}
+	
+	
+	
+	// STAFF : Bigslsah
+	
+	
+	// Default
+	layer_bigslash_staff_out
+	
+	{
+		"event0"
+		{
+		"change_speed"		"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"		"1"		
+		"impactdirY"		"0"
+		"impactdirZ"		"0"
+		"impactcoeff"		"1"
+		"HitPow"		"1.5"	
+		"cutheadflag"		"0"
+		"impalflag"		"0"
+		"backstabflag"		"0"
+		"disarmflag"		"0"
+		"adrenalineadd"		"1"
+		"versus"		"1"
+		"push"			"1"
+		"alwayspush"		"2"
+		"pushplayercoeff"	"1"
+		"breakparade"		"1"
+		"chancetostun"		"0.1"
+		"chancetofall"		"0.2"
+		"critical_enable"	"1"
+		"trail" 		"1"
+		}
+	
+		"event1"
+		{
+		"change_speed"		"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"		"1"		
+		"impactdirY"		"0"
+		"impactdirZ"		"0"
+		"impactcoeff"		"1"
+		"HitPow"		"1.5"	
+		"cutheadflag"		"0"
+		"impalflag"		"0"
+		"backstabflag"		"0"
+		"disarmflag"		"0"
+		"adrenalineadd"		"1"
+		"versus"		"1"
+		"push"			"1"
+		"alwayspush"		"2"
+		"pushplayercoeff"	"1"
+		"breakparade"		"1"
+		"chancetostun"		"0.1"
+		"chancetofall"		"0.2"
+		"trail" 		"1"
+		}
+	}
+	
+	
+	// Left
+	layer_bigslash_staff_L_out
+	{
+		"event0"
+		{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"0"		
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"1"
+		"HitPow"	"1.5"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"		"1.5"
+		"versus"	"1"
+		"push"		"1"
+		"alwayspush"	"2"
+		"breakparade"	"1"
+		"chancetostun"	"0.1"
+		"chancetofall"	"0.2"
+		"critical_enable"	"1"
+		"trail" 	"1"
+		}
+	
+		"event1"
+		{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"0"		
+		"impactdirY"	"-1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"1"
+		"HitPow"	"1.5"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"		"1.5"
+		"versus"	"1"
+		"push"		"1"
+		"alwayspush"	"2"
+		"breakparade"	"1"
+		"chancetostun"	"0.1"
+		"chancetofall"	"0.2"
+		"trail" 	"1"
+		}
+	}
+	
+	
+	// Right
+	layer_bigslash_staff_R_out
+	{
+		"event0"
+		{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"0"		
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"1"
+		"HitPow"	"1.5"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"		"1.5"
+		"versus"	"1"
+		"push"		"1"
+		"alwayspush"	"2"
+		"breakparade"	"1"
+		"chancetostun"	"0.1"
+		"chancetofall"	"0.2"
+		"critical_enable"	"1"
+		"trail" 	"1"
+		}
+	
+		"event1"
+		{
+		"change_speed"	"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"	"0"		
+		"impactdirY"	"-1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"1"
+		"HitPow"	"1.5"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"		"1.5"
+		"versus"	"1"
+		"push"		"1"
+		"alwayspush"	"2"
+		"breakparade"	"1"
+		"chancetostun"	"0.1"
+		"chancetofall"	"0.2"
+		"trail" 	"1"
+		}
+	}
+	
+	
+	// Bottom
+	layer_bigslash_staff_B_out
+	{
+		"event0"
+		{
+		"change_speed"		"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"		"1"		
+		"impactdirY"		"0"
+		"impactdirZ"		"0"
+		"impactcoeff"		"1"
+		"HitPow"		"1.5"	
+		"cutheadflag"		"0"
+		"impalflag"		"0"
+		"backstabflag"		"0"
+		"disarmflag"		"0"
+		"adrenalineadd"		"1"
+		"versus"		"1"
+		"push"			"1"
+		"alwayspush"		"2"
+		"pushplayercoeff"	"200"
+		"breakparade"		"1"
+		"chancetostun"		"0.1"
+		"chancetofall"		"0.2"
+		"critical_enable"	"1"
+		"trail" 		"1"
+		}
+	
+		"event1"
+		{
+		"change_speed"		"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"		"1"		
+		"impactdirY"		"0"
+		"impactdirZ"		"0"
+		"impactcoeff"		"1"
+		"HitPow"		"1.5"	
+		"cutheadflag"		"0"
+		"impalflag"		"0"
+		"backstabflag"		"0"
+		"disarmflag"		"0"
+		"adrenalineadd"		"1"
+		"versus"		"1"
+		"push"			"1"
+		"alwayspush"		"2"
+		"pushplayercoeff"	"500"
+		"breakparade"		"1"
+		"chancetostun"		"0.1"
+		"chancetofall"		"0.2"
+		"trail" 		"1"
+		}
+	}
+	
+	
+	// Top
+	layer_bigslash_staff_T_out
+	{
+		"event0"
+		{
+		"change_speed"		"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"		"1"		
+		"impactdirY"		"0"
+		"impactdirZ"		"0"
+		"impactcoeff"		"1"
+		"HitPow"		"1.5"	
+		"cutheadflag"		"0"
+		"impalflag"		"0"
+		"backstabflag"		"0"
+		"disarmflag"		"0"
+		"adrenalineadd"		"1"
+		"versus"		"1"
+		"push"			"1"
+		"alwayspush"		"2"
+		"pushplayercoeff"	"200"
+		"breakparade"		"1"
+		"chancetostun"		"0.1"
+		"chancetofall"		"0.2"
+		"critical_enable"	"1"
+		"trail" 		"1"
+		}
+	
+		"event1"
+		{
+		"change_speed"		"1"		// Allow Weapons to Change this Attack Speed
+		"impactdirX"		"1"		
+		"impactdirY"		"0"
+		"impactdirZ"		"0"
+		"impactcoeff"		"1"
+		"HitPow"		"1.5"	
+		"cutheadflag"		"0"
+		"impalflag"		"0"
+		"backstabflag"		"0"
+		"disarmflag"		"0"
+		"adrenalineadd"		"1"
+		"versus"		"1"
+		"push"			"1"
+		"alwayspush"		"2"
+		"pushplayercoeff"	"200"
+		"breakparade"		"1"
+		"chancetostun"		"0.1"
+		"chancetofall"		"0.2"
+		"trail" 		"1"
+		}
+	}
+	
+	
+	
+	
+	
+	
+	// STAFF : Huge attack
+	
+	layer_combo_staff_huge
+	{
+		"event0"
+		{
+		"impactdirX"	"0"		
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"2"
+		"HitPow"	"30"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"2"
+		"push"		"1"
+		"alwayspush"	"2"
+		"breakparade"	"1"
+		"chancetostun"	"0.1"
+		"chancetofall"	"0.2"
+		"critical_enable"	"1"
+		"trail" 	"1"
+		}
+	
+		"event1"
+		{
+		"impactdirX"	"0"		
+		"impactdirY"	"-1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"2"
+		"HitPow"	"30"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"2"
+		"push"		"1"
+		"alwayspush"	"2"
+		"breakparade"	"1"
+		"chancetostun"	"0.1"
+		"chancetofall"	"0.2"
+		"trail" 	"1"
+		}
+	
+		"event2"
+		{
+		"impactdirX"	"0"		
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"2"
+		"HitPow"	"30"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"2"
+		"push"		"1"
+		"alwayspush"	"2"
+		"breakparade"	"1"
+		"chancetostun"	"0.1"
+		"chancetofall"	"0.2"
+		"trail" 	"1"
+		}
+	
+		"event3"
+		{
+		"impactdirX"	"0"		
+		"impactdirY"	"-1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"2"
+		"HitPow"	"30"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"2"
+		"push"		"1"
+		"alwayspush"	"2"
+		"breakparade"	"1"
+		"chancetostun"	"0.1"
+		"chancetofall"	"0.9"
+		"trail" 	"1"
+		}
+	}
+	
+	
+	// STAFF : Rush attack
+	
+	layer_combo_staff_rush
+	{
+		"event0"
+		{
+		"impactdirX"		"0"		
+		"impactdirY"		"-1"
+		"impactdirZ"		"0"
+		"impactcoeff"		"2"
+		"HitPow"		"0.5"	
+		"cutheadflag"		"0"
+		"impalflag"		"0"
+		"backstabflag"		"0"
+		"disarmflag"		"0"
+		"adrenalineadd"		"1"
+		"push"			"1"
+		"alwayspush"		"2"
+		"pushplayercoeff"	"500"
+		"breakparade"		"1"
+		"chancetostun"		"0"
+		"chancetofall"		"0"
+		"critical_enable"	"1"
+		"trail" 		"1"
+		}
+	
+		"event1"
+		{
+		"impactdirX"		"0"		
+		"impactdirY"		"1"
+		"impactdirZ"		"0"
+		"impactcoeff"		"2"
+		"HitPow"		"1.5"	
+		"cutheadflag"		"0"
+		"impalflag"		"0"
+		"backstabflag"		"0"
+		"disarmflag"		"0"
+		"adrenalineadd"		"1"
+		"push"			"1"
+		"alwayspush"		"2"
+		"pushplayercoeff"	"300"
+		"breakparade"		"1"
+		"chancetostun"		"1"
+		"chancetofall"		"0.2"
+		"trail" 		"1"
+		}
+	}
+	
+	// STAFF : Falling attack
+	
+	layer_combo_staff_fall_out
+	{
+		"impactdirX"	"1"		
+		"impactdirY"	"0"
+		"impactdirZ"	"0"
+		"impactcoeff"	"2"
+		"HitPow"	"2"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"		"1.5"
+		"push"		"1"
+		"alwayspush"	"2"
+		"breakparade"	"1"
+		"chancetostun"	"0.1"
+		"chancetofall"	"0.5"
+		"critical_enable"	"1"
+		"trail" 	"1"
+	}
+	
+	
+	// STAFF : Trample attack
+	
+	layer_combo_staff_trample
+	{
+		"impactdirX"	"0"		
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"impactcoeff"	"2"
+		"HitPow"	"20"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"0"
+		"push"		"1"
+		"alwayspush"	"2"
+		"breakparade"	"1"
+		"chancetostun"	"0.0"
+		"chancetofall"	"0.9"
+		"critical_enable"	"1"
+		"trail" 	"1"
+	}
+	
+	
+	
+	// STAFF : Breakneck
+	
+	layer_breakneck_front
+	{
+		"impactdirX"	 "0"		
+		"impactdirY"	 "0"
+		"impactdirZ"	 "-1"
+		"impactcoeff"	 "2"
+		"HitPow"	 "30"	
+		"cutheadflag"	 "0"
+		"impalflag"	 "0"
+		"backstabflag"	 "0"
+		"disarmflag"	 "0"
+		"adrenalineadd"	 "0"
+		"push"		 "0"
+		"alwayspush"	 "0"
+		"pushplayercoeff""1"
+		"breakparade"	 "0"
+	}
+	
+	layer_breakneck_back
+	{
+		"impactdirX"		"0"		
+		"impactdirY"		"0"
+		"impactdirZ"		"-1"
+		"impactcoeff"		"200"
+		"HitPow"		"30"	
+		"cutheadflag"		"0"
+		"impalflag"		"0"
+		"backstabflag"		"0"
+		"disarmflag"		"0"
+		"adrenalineadd"		"0"
+		"push"			"0"
+		"alwayspush"		"0"
+		"pushplayercoeff"	"1"
+		"breakparade"		"0"
+	}
+	
+	
+	// STAFF : Ground impal
+	
+	layer_Ground_Impal_staff_idle 		// Ground Impale 
+	{
+		"impactdirX"	"1"
+		"impactdirY"	"0"
+		"impactdirZ"	"0"
+		"impactcoeff"	"2"
+		"HitPow"	"18"	
+		"cutheadflag"	"0"
+		"impalflag"	"0"
+		"backstabflag"	"0"
+		"disarmflag"	"0"
+		"adrenalineadd"	"2"
+		"push"		"0"	
+		"criticalblood" "1" 
+		"trail" 	"1"
+	}
+	
+	
+	// STAFF : Versus
+	
+	"layer_staff_versus_l_out"
+	{
+		"adrenalineadd"	"6"
+	}
+	
+	"layer_staff_versus_r_out"
+	{
+		"adrenalineadd"	"6"
+	}
+	
+	
+
+}

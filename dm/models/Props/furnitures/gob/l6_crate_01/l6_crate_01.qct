@@ -1,0 +1,37 @@
+$keyvalues
+{
+	"prop_data"
+	{
+		"position_take_x" 	"28"
+		"position_take_y" 	"0"
+		"position_take_z" 	"-15"
+
+		"angle_take_x" 		"0"
+		"angle_take_y" 		"0"
+		"angle_take_z" 		"0"
+
+		"hands" 		"2"
+		"hands_parameter" 	"26"
+
+		"min_dmg_to_hurt" 	"2"		// No damage inflicted when amount is less than this value. 
+		
+		"health" "2"
+	}
+	
+	"entity_data"
+	{
+// 	Value used for smoke explosion after object is destroyed.
+
+		"Break_Smoke_Color_R"	"0.3"		// Red value for smoke.
+
+                "Break_Smoke_Color_G"	"0.23"		// Green value for smoke.
+
+                "Break_Smoke_Color_B"	"0.16"		// Bleu value for smoke.
+
+                "Break_Smoke_Color_A"	"0.8"		// Alpha for smoke.
+
+                "Break_Smoke_Duration"	"1"		// Duration of smoke (in seconds).
+
+                "Break_Smoke_Size"	"2"		// Size of the smoke (in inches).
+	}
+}

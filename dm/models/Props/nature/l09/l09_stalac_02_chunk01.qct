@@ -1,0 +1,10 @@
+$keyvalues
+{
+	"entity_data"
+	{
+		"hit_spider_monster"	"1"	// break on spider
+	}
+}
+	
+
+		

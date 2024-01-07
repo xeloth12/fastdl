@@ -1,0 +1,21 @@
+$keyvalues
+{
+	"prop_data"
+	{
+		"base" "Pottery.small"
+		"position_take_x" "16"
+		"position_take_y" "0"
+		"position_take_z" "-3"
+
+		"angle_take_x" "0"
+		"angle_take_y" "253"
+		"angle_take_z" "-19"
+
+		"hands" "1"
+		"hands_parameter" "75"
+		"health" "3"
+		"inflammable" 		"1"		// Spawns flammable stain of oil.
+	}
+		
+}
+		

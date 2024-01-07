@@ -1,0 +1,480 @@
+$keyvalues
+{
+ 	"entity_data"
+	{
+		"level_1"
+		{
+			"difficulty" 		"0.7"		// Max 1. When close to max, npc takes more offensive decisions.
+			"strength"	  	"4"		// Npc' strength.
+			"dexterity"	  	"4"		// Npc's dexterity
+			"life_regen" 		"0.25"		// Life regeneration (points per seconds).
+			"stunned_duration" 	"4.0"		// Amount of time during which npc is stuned (Time in second).
+			"delaytostun"		"12"		// Amout of time (in secondes) the npc remains stuned (default 10).
+			"nbhittostun"		"3"		// Hits needed before applying the chancetostun factor (defaut 6).			
+			"chancetostun"		"0.2"		// Base chance for npc to get stuned (default 0.2).
+//			"versus_click"		"6"		// Number of cliks needed to win a sword contest. No sword contest with goblin.
+			"bow_precision"		"50.0"		// Distance for hits. The higher the number is, more the shots are not accurate.
+			
+			"ThrowPrecisionMinDist" 		"150.0" 	// Below this distance, NPC has max distance accuracy
+			"ThrowPrecisionMaxDist" 		"650.0" 	// Between this distance and ThrowPrecisionMinDist, distance accuracy increase
+			"ThrowPrecisionNbShootToIn"		"10.0"		// 1st shoot has very bad accuracy, ThrowPrecisionNbShootToIncrease'th shoot is the most accurate
+	
+
+			"life_toflee" 			"0"		// Life percentage needed for the npc start to flee.
+			"life_tobeg" 			"0"		// Npc starts to beg if its life goes under this percentage.
+			
+			"dodge_on_kick_add_chance"	"0"		// Percentage chance added after every kick.
+			"dodge_on_kick_init_chance"	"0"		// Base chance percentage for npc to dodge player's kick.
+
+		}
+
+/////////////// Following value are here if no Difficulty Level choosed in hammer.
+		
+		"AttackCoolMinTime"			"0.0"			// Min time to beetween attacks when NPC is "cool"
+		"AttackCoolMaxTime"			"1.5"			// Max time to beetween attacks when NPC is "cool"
+		"AttackBersekerMinTime"		"0.0"			// Min time to beetween attacks when NPC is in berseker mode
+		"AttackBersekerMaxTime"		"1.5"			// Max time to beetween attacks when NPC is in berseker mode
+		"AttackRythmMinTime"		"10.0"			// Min time to change beetween cool<->berseker mode
+		"AttackRythmMaxTime"		"15.0"			// Max time to change beetween cool<->berseker mode
+		"PlayerNoAttackDelayToGoBersekerMode"		"2.0"  // after no attack from player during this delay, npc goes in berseker mode
+		
+		"difficulty" 			"0.6"		// Max 1. When close to max, npc takes more offensive decisions.
+		"strength"	  		"2"		// Npc' strength.
+		"dexterity"	  		"2"		// Npc's dexterity
+		"life_regen" 			"0.25"		// Life regeneration (points per seconds).
+		"stunned_duration" 		"4.0"		// Amount of time during which npc is stuned (Time in second).
+		"delaytostun"			"12"		// Amout of time (in secondes) the npc remains stuned (default 10).
+		"nbhittostun"			"3"		// Hits needed before applying the chancetostun factor (defaut 6).			
+		"chancetostun"			"0.2"		// Base chance for npc to get stuned (default 0.2).
+//		"versus_click"			"6"		// Number of cliks needed to win a sword contest. No sword contest with goblin.
+		"bow_precision"			"50.0"		// Distance for hits. The higher the number is, more the shots are not accurate.
+		
+		"ThrowPrecisionMinDist" 		"150.0" 	// Below this distance, NPC has max distance accuracy
+		"ThrowPrecisionMaxDist" 		"1000.0" 	// Between this distance and ThrowPrecisionMinDist, distance accuracy increase
+		"ThrowPrecisionNbShootToIn"		"10.0"		// 1st shoot has very bad accuracy, ThrowPrecisionNbShootToIncrease'th shoot is the most accurate
+///////////////			
+
+//		"Check_Corpse_Chance" 		"1"		// Base percentage chance that the NPC goes to check a corpse, if it sees it.
+				
+//		"perc_grab_after_wVSw"		"0.8"		// Orc grabs the player after a sword contest. No grab for this NPC.					
+
+		"RangeViewToStealthMaxInCombat"	"200"	// Radius inside which the player is detected, even if invisible.
+		
+		"backstable"			"1"
+		"backstab_offset"		"13"
+		"backstab_dist"			"17"
+
+          	"mana_drainable"  		"1"		// Can be mana drained.
+          			
+		"combo0staff_offset"		"26"
+		"combo0staff_dist"		"17"
+		
+		"life_toflee" 			"0.4"		// Life percentage needed for the npc start to flee.
+		"life_stopflee" 		"1"		// Life percentage needed for the npc stop to flee.
+		"life_tobeg" 			"0.1"		// Npc starts to beg if its life goes under this percentage.
+		
+		"Blood_ratio" 			"0.3" 		// Blood spawn size (percent).
+
+ 		"Blood_Color_Type"		"RED"		// default value is "RED"
+// 		"Blood_Color_Type"		"ORC"		// default value is "RED"
+ 					
+		"dodge_on_kick_add_chance"	"0.2"		// Percentage chance added after every kick.
+		"dodge_on_kick_init_chance"	"0.1"		// Base chance percentage for npc to dodge player's kick.
+                		
+//		"NWDmg" 			"5"		// Damage dealt by npc if no weapon used.
+//		"NWPiercing" 			"0.1"		// Piercing coeff dealt by npc if no weapon used.
+//		"NWCritHit" 			"4"		// Critical hit dealt by npc if no weapon used.
+
+		"cowardice"			"100"		// If cowardice higher than fearfactor NPC will fell
+		"arrow_impal" 			"1"		// Npc can be impaled by arrows (1: yes, 0: no).
+		"charmable" 			"1" 		// Npc is charmable (1: yes, 0: no). 
+		"halo_scale"			"1"		// Hallow size for charmable NPCs.
+		
+		"maxsightdistancequiet" 	"1500"		// Maximum vision distance, in inches, when in idle mode.
+		"maxsightdistancealerted" 	"1500"		// Maximum vision distance, in inches, when in alert mode.
+
+		"fielofviewheightangle" 	"60"		// field of view height angle.
+
+		"fieldofviewquiet"  		"90"		// Maximum vision angle, in degres, when in idle mode.
+		"fieldofviewalerted" 		"160"		// Maximum vision angle, in degres, when in alert mode.
+
+		"TimeKnockedDownByPhysics" 	"3"  		// Time npc stay knocked down after being hit by a physic.
+		
+                "max_jump_rise"                 "60"  		// how high can a NPC jump.
+                "max_jump_drop"                 "300"   	// how high can a NPC drop.
+                "max_jump_dist"                 "300"   	// how long can a NPC jump (2D).
+ 
+		"striketurndist" 		"200"		// Max distance for the npc to make an attack while turning.
+
+		"life_tohurt"			"0.2"		// When NPC life percentage goes below this value, NPC is hurt and plays hurt animations.
+		"stamina"			"25"		// Starting stamina
+		
+	
+		// What NPC cannot block.
+		"non_blockable2"		"arxspellmissileshot_2"		// What NPC cannot block.		
+
+		// What NPC cannot dodge.
+		"non_dodgeable2"		"Arrow_classic"			// What NPC cannot dodge.
+		"non_dodgeable1"		"arxspellmissileshot_2"			// What NPC cannot dodge.
+		"non_dodgeable3"		"arxspellmissileshot"			// What NPC cannot dodge.
+								
+		"visibilityratio"		"1.4"		// This will increase the blindness of npcs (default 1.2).
+		
+		"Yellow_zone"			"130"		// Max close combat distance
+		"Green_zone"			"60"		// Ideal close combat distance
+		"Red_zone"				"30"		// min close combat distance 	
+
+		"npc_health"			"20"		// NPC's life points.
+
+		"checkforweapons" 		"1"				// Check for weapons if it does not have one.
+		"weapon_takable_1" 		"weapon_arxclub"		// Type of weapon it looks for.
+
+		"move_blocker_mass"		"100"	// mass of objects NPC can push 
+
+//		"Dist_versus_npcs"		"90"		// this is the distance set between npcs when we detect a sword versus sword			
+
+		"can_eat_food"			"0"		// NPC can eat object flagged as food.
+
+		"flies_spawn_time"		"10"		// Flies will be spawned after NPC is dead (time in seconds).
+
+//		"acceleratevalue" 				// initialized to 0.f (velocity of npc multiply by this)
+//		"timemintoaccelerate" 				// initialized to 2.f (test random to increase velocity during these)
+//		"timemaxtoaccelerate" 				// initialized to  5.f
+//		"timeaccelerate" 				// initialized to 3.f (accelerate during this time)
+
+
+  		"Vulnerabilities_spells"
+  		{ 
+   			//"fire"	"0.5"		// Immune to fire 0. Damage multiplier 2. 
+			"air_3"		"2"		// Immune to lightning 0. Damage multiplier 2.     
+                        "shock_water"   "2"             // Immune to electricity in water 0. Damage multiplier 2.  			
+		}
+
+
+		"PercTaunt"			"0.5"		// Chance to taunt from 0 to 1 (default 0).
+		"MinDistTaunt"			"160"		// Minimum distance for taunt (default 200).
+		"MaxDistTaunt"			"700"		// Maximum distance for taunt (default 600).
+		"TimeTestTaunt"			"4"		// Minimum time between two taunts (in second).
+		
+/////////////// Specific to goblins
+
+		"PercThrowstone"		"0.5"		// 
+		"MinDistThrowstone"		"160"		// Minimum distance for throwing stone.
+		"MaxDistThrowstone"		"700"		// Maximum distance for throwing stone.
+		"TimeTestThrowstone"		"3"		// 
+		"Damagestone"			"2"		// Damages done by stone
+///////////////	
+	
+		"base_dodge_chance"		"0.3"		// Chance to perform a dodge for defense. Doesn't stand for kick( special rules) and preventive dodge
+	}
+
+	"prop_data"					// Position and orientation when the corpse is grabed by player.Only when npc is dead.
+	{
+		"position_take_x" 	"-4"		// Position X.
+		"position_take_y" 	"-8"		// Position Y.
+		"position_take_z" 	"13"		// Position Z.
+
+		"angle_take_x" 		"0"		// Orientation X.
+		"angle_take_y" 		"0"		// Orientation Y.
+		"angle_take_z" 		"0"		// Orientation Z.
+	}
+	
+	"Telekinesis_Stasis"
+	{
+		"entity_size"  		"1"  		// 1=SMALL, 2=BIG or 3=HUGE 
+		"effect" 		"1"		// 1: can be taken with telekinesis spell.
+		"caster_cost" 		"20"		// Mana cost for the player when using this spell on the npc.
+	}
+
+ 	"hitboxes_modifier"				// Multipliyer applied to damages when the npc is hit on a specific hitbox.
+	{
+		"0" 			"1.0" 		// HITGROUP_GENERIC
+		"1" 			"3" 		// HITGROUP_HEAD
+		"2" 			"0.5" 		// HITGROUP_CHEST
+		"3" 			"1" 		// HITGROUP_STOMACH
+		"4" 			"1.25" 		// HITGROUP_LEFTARM
+		"5" 			"1.25" 		// HITGROUP_RIGHTARM
+		"6" 			"1.25" 		// HITGROUP_LEFTLEG
+		"7" 			"1.25" 		// HITGROUP_RIGHTLEG
+	}
+	
+	"hitboxes_armor"		// Type of armor applied on a specific hitbox. <0.3 = skin, <0.4 = leather, <0.7 = wood,  >=0.7 = metal.
+	{
+		"0" 			"0" 
+		"1" 			"0" 
+		"2" 			"0" 
+		"3" 			"0" 
+		"4" 			"0" 
+		"5" 			"0" 
+		"6" 			"0" 
+		"7" 			"0" 
+	}
+	
+	"earth_1"				// Spell: Stone Skin for receivers.
+	{  
+		"effect"	"0.5"		// Damage multiplier.
+	}
+}
+
+"combatmovedatas"	
+{	
+	"Dodgestrike_Right" 
+	{
+		"impactdirX"		"0"		// Base direction X for impact. 1 : Ahead. -1 : Back.
+		"impactdirY"		"-1"		// Base direction Y for impact. 1 : Left. -1 : Right.
+		"impactdirZ"		"0"		// Base direction Z for impact.
+		"HitPow"		"0.8"		// Damage multiplier.
+		"breakparade"		"0"		// 1: breaks opponent's parry.
+		"alwayspush"		"0" 		// 0: no push on the target. 1: the more the damage are high, the more the target is pushed. 2: Force huge push.
+		"orientationspeed"	"40"		// rotation speed for NPCs to face player
+	}
+	
+	"Dodgestrike_left" 
+	{
+		"impactdirX"		"0"
+		"impactdirY"		"-1"
+		"impactdirZ"		"0"
+		"HitPow"		"0.8"
+		"breakparade"		"0"
+		"alwayspush"		"0" 
+		"orientationspeed"	"40"		// rotation speed for NPCs to face player
+	}
+	
+	"attack_right" 
+	{
+		"impactdirX"	"0"
+		"impactdirY"	"-1"
+		"impactdirZ"	"0"
+		"HitPow"	"0.8"
+		"breakparade"	"0"
+		"alwayspush"	"0" 
+		"impactcoeff"	"100"
+	}
+	
+	"attack_left" 
+	{
+		"impactdirX"	"0"
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"HitPow"	"0.8"
+		"breakparade"	"0" 
+		"alwayspush"	"0"
+		"impactcoeff"	"100"	 
+	}
+	
+	"attack_top"
+	{
+		"impactdirX"	"0"
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"HitPow"	"0.8"
+		"breakparade"	"0" 
+		"alwayspush"	"0" 
+		"impactcoeff"	"100"	
+	}
+	
+	"attack_Bottom"
+	{
+		"impactdirX"	"0"
+		"impactdirY"	"0"
+		"impactdirZ"	"1"
+		"HitPow"	"0.8"
+		"breakparade"	"0"
+		"alwayspush"	"0" 
+		"impactcoeff"	"100"	 
+	}
+	
+	"attack_Bash"
+	{
+		"impactdirX"	"0"
+		"impactdirY"	"0"
+		"impactdirZ"	"-1"
+		"HitPow"	"0.8"
+		"breakparade"	"0" 
+		"alwayspush"	"1" 
+		"impactcoeff"	"100"	
+		"blur"			"2"
+	}
+	
+	"block_attack"
+	{
+		"impactdirX"	"0"
+		"impactdirY"	"0"
+		"impactdirZ"	"1"
+		"HitPow"	"0.8"
+		"breakparade"	"0" 
+		"alwayspush"	"1" 
+		"impactcoeff"	"100"	
+	}
+	
+	"attack_Fast"
+	{
+	 "event0"				// When event, attack is separated in two, or more, parts.
+		{
+		"impactdirX"		"0"
+		"impactdirY"		"-1"
+		"impactdirZ"		"0"
+		"HitPow"		"0.8"
+		"breakparade"		"0" 
+		"alwayspush"		"0" 
+		"orientationspeed"	"40"	
+		"impactcoeff"		"100"	
+		}
+	 "event1"
+		{
+		"impactdirX"		"0"
+		"impactdirY"		"-1"
+		"impactdirZ"		"0"
+		"HitPow"		"0.8"
+		"breakparade"		"0" 
+		"alwayspush"		"0"
+		"orientationspeed"	"40"	
+		"impactcoeff"		"100"
+		"blur"			"2"	
+		} 
+	}
+	
+	"attack_Jump"
+	{
+		"impactdirX"	"0"
+		"impactdirY"	"0"
+		"impactdirZ"	"-1"
+		"HitPow"	"0.8"
+		"breakparade"	"0" 
+		"alwayspush"	"1" 
+		"impactcoeff"	"100"
+		"blur"			"3"
+	}
+	
+	"attack_Forward"
+	{
+		"impactdirX"	"0"
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"HitPow"	"0.8"
+		"breakparade"	"0" 
+		"alwayspush"	"0" 
+		"impactcoeff"	"100"	
+	}
+	
+	"attack_wounded_1"
+	{
+		"impactdirX"	"0"
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"HitPow"	"0.8"
+		"breakparade"	"0" 
+		"alwayspush"	"0" 
+		"impactcoeff"	"100"	
+	}
+	
+	"attack_wounded_2"
+	{
+		"impactdirX"	"0"
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"HitPow"	"0.8"
+		"breakparade"	"0" 
+		"alwayspush"	"0" 
+		"impactcoeff"	"100"	
+	}
+	
+	"attack_wounded_unarmed_1"
+	{
+		"impactdirX"	"0"
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"HitPow"	"0.8"
+		"breakparade"	"0" 
+		"alwayspush"	"0" 
+		"impactcoeff"	"100"	
+	}
+	
+	"attack_wounded_unarmed_2"
+	{
+		"impactdirX"	"0"
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"HitPow"	"0.8"
+		"breakparade"	"0" 
+		"alwayspush"	"0" 
+		"impactcoeff"	"100"	
+	}
+	
+	"attack_long"
+	{
+		"impactdirX"	"0"
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"HitPow"	"0.8"
+		"breakparade"	"0" 
+		"alwayspush"	"0" 
+		"impactcoeff"	"100"	
+	}
+	
+	"attack_kick"
+	{
+		"impactdirX"	"0"
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"HitPow"	"0.8"
+		"breakparade"	"0" 
+		"alwayspush"	"0" 
+		"impactcoeff"	"100"	
+	}
+	
+	"Turn_strike_90_Left"
+	{
+		"impactdirX"	"0"
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"HitPow"	"0.8"
+		"breakparade"	"0" 
+		"alwayspush"	"0" 
+		"impactcoeff"	"100"		
+	}
+	
+	"Turn_strike_90_Right"
+	{
+		"impactdirX"	"0"
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"HitPow"	"0.8"
+		"breakparade"	"0" 
+		"alwayspush"	"0" 
+		"impactcoeff"	"100"	
+	}
+	
+	"Turn_strike_180_Left"
+	{
+		"impactdirX"	"0"
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"HitPow"	"0.8"
+		"breakparade"	"0" 
+		"alwayspush"	"0" 
+		"impactcoeff"	"100"	
+	}
+	
+	"Turn_strike_180_Right"
+	{
+		"impactdirX"	"0"
+		"impactdirY"	"1"
+		"impactdirZ"	"0"
+		"HitPow"	"0.8"
+		"breakparade"	"0" 
+		"alwayspush"	"0" 
+		"impactcoeff"	"100"	
+	}
+	
+	"ambush_2_attack" 
+	{
+		"impactdirX"	"0"
+		"impactdirY"	"-1"
+		"impactdirZ"	"0"
+		"HitPow"	"0.8"
+		"breakparade"	"0"
+		"alwayspush"	"0"
+		"impactcoeff"	"100"	 
+	}
+}

@@ -1,0 +1,10 @@
+$keyvalues
+{
+	"entity_data"
+	{
+        	"min_ambient"		"0.8"	// To light the NPC, even in dark ambiences.
+	}
+}
+	
+
+		

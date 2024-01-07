@@ -1,0 +1,60 @@
+$keyvalues
+{
+	"prop_data"
+	{	
+		"position_take_x" 		"3"
+		"position_take_y" 		"-3"
+		"position_take_z" 		"5.5"
+
+		"angle_take_x" 			"-90"
+		"angle_take_y" 			"100"
+		"angle_take_z" 			"45"
+
+		"position_take_x_zoomed" 	"-2.5"			// Object position in zoomed window equipment.
+		"position_take_y_zoomed" 	"2.5"			//
+		"position_take_z_zoomed" 	"8.5"			//
+
+		"angle_take_x_zoomed" 		"90"			// Object orientation in zoomed window equipment.
+		"angle_take_y_zoomed" 		"0"			//
+		"angle_take_z_zoomed" 		"45"			//
+
+		"rotation_axis_x_zoomed" 	"0"			// Angles specifie a rotation axis in zoomed window equipment
+		"rotation_axis_y_zoomed" 	"0"			//
+		"rotation_axis_z_zoomed" 	"0"	
+		
+		"rotation_speed" 		"30"
+		"item_class" "prop_physics"
+
+		"item_name" "banana01_name"
+		"description" "banana01_description"
+
+		"use_inventory_sound" 		"player_eat"
+		
+		"light_inventory_pos_x" 	"-20"			// Light position in inventory. Left - / Right +
+		"light_inventory_pos_y" 	"-90"			// Down - / Up +
+		"light_inventory_pos_z" 	"-100"			// Far + / Close -
+
+		"light_inventory_dir_x" 	"1"			// This is not used for omni lights.
+		"light_inventory_dir_y" 	"0"			// It will be used once we will use directional lights.
+		"light_inventory_dir_z" 	"0"
+
+		"light_inventory_color_r" 	"1"			// Light's color.
+		"light_inventory_color_g" 	"1"			//
+		"light_inventory_color_b" 	"1"			//
+		
+		"light_inventory_radius" 			"500"
+		"light_inventory_hotspotradius" 		"120"
+		"light_inventory_mediumspotintensityfactor"	"0.6"	// facteur d'attenuation du hotspot jusqu'a la fin
+
+		"no_belt_priority" 		"1"		// Not a priority for a belt slot.
+	}
+
+	"entity_data"
+	{
+		"give_health"			"1"		// Health points restored when this oject is eaten.
+		"poisonable" 			"1"		// Item will be poisoned if it is in a poison cloud.
+	//	"slippery_zone_radius"		"30"		// Radius arround the object where NPCs slide, in inches.
+
+		"take_replace_by"	"models/items/provisions/food_ratio/food_ratio02.mdl"	
+	}
+}

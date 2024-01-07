@@ -1,0 +1,12 @@
+$keyvalues
+{
+	"prop_data"
+	{	
+		"item_name" 			"it09_pack_name"
+		"description" 			"it09_pack_description"
+	}
+
+	"entity_data"
+	{
+	}
+}

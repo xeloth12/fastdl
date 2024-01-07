@@ -1,0 +1,365 @@
+$keyvalues
+{
+ 	"entity_data"
+	{
+		"strength"	  	"10"		// Npc' strength.
+		"dexterity"	  	"6"		// Npc's dexterity.
+		"life_regen" 		"0"		// Life regeneration (points per seconds).
+		"stunned_duration" 	"7.0"		// Amount of time during which npc is stuned (Time in second).
+		
+		"AttackCoolMinTime"			"0"			// Min time to beetween attacks when NPC is "cool"
+		"AttackCoolMaxTime"			"0"			// Max time to beetween attacks when NPC is "cool"
+		"AttackBersekerMinTime"		"0"			// Min time to beetween attacks when NPC is in berseker mode
+		"AttackBersekerMaxTime"		"0"			// Max time to beetween attacks when NPC is in berseker mode
+		"AttackRythmMinTime"		"10.0"			// Min time to change beetween cool<->berseker mode
+		"AttackRythmMaxTime"		"15.0"			// Max time to change beetween cool<->berseker mode
+		"PlayerNoAttackDelayToGoBersekerMode"		"2.0"  // after no attack from player during this delay, npc goes in berseker mode
+
+//		"versus_click"		"8"		// Number of cliks needed to win a sword contest. No sword contest with cyclop.
+
+		"life_toflee" 		"0.0"		// Life percentage needed for the npc start to flee.
+		"life_stopflee" 	"0.8"		// Life percentage needed for the npc stop to flee.
+//		"life_tobeg" 		"0"		// Npc starts to beg if its life goes under this percentage. No beg for Cyclope.
+		
+		"Blood_ratio" 		"0.3" 		// Blood spawn size (percent).
+		"difficulty" 		"0.9"		// Max 1. When close to max, npc takes more offensive decisions.
+
+//		"NWDmg" 		"5"		// Damage dealt by npc if no weapon used.
+//		"NWPiercing" 		"0.1"		// Piercing coeff dealt by npc if no weapon used.
+//		"NWCritHit" 		"4"		// Critical hit dealt by npc if no weapon used.
+
+		"cowardice"		"100"		// If cowardice higher than fearfactor (set by weapon used by opponent), NPC will flee.
+		"arrow_impal" 		"0"		// Npc can be impaled by arrows (1: yes, 0: no).
+		"charmable" 		"0" 		// Npc is charmable (1: yes, 0: no).
+
+ 		"Blood_Color_Type"	"RED"		// default value is "RED"
+ 		
+		"flies_spawn_time"	"10"		// Flies will be spawned after NPC is dead (time in seconds).
+				
+		"fielofviewheightangle"	"60"		// field of view height angle. 
+
+          	"mana_drainable"  	"1"		// Can be mana drained.
+		
+		"ShouldRagdollCollideWithNPCWhenInert" "1" // Set it to 0 if you don't want death ragdoll to collide with NPCs when inerts
+		
+		"MinMassObjectDamages"	"125"    	// Npc does not take damages by physics object which mass is smaller than this value.
+		"MinMassDamages"		"200"    	// Npc take damages this damages if physics object have a mass greater than MinMassObjectDamages.
+				
+		"maxsightdistancequiet" 	"3000"	// Maximum vision distance, in inches, when in idle mode. old 1000
+		"maxsightdistancealerted" 	"3000"	// Maximum vision distance, in inches, when in alert mode. old 1500
+		
+		"fieldofviewquiet"  	"90"		// Maximum vision angle, in degres, when in idle mode.
+		"fieldofviewalerted" 	"160"		// Maximum vision angle, in degres, when in alert mode.
+
+		"TimeKnockedDownByPhysics" 	"3"  	// Time npc stay knocked down after being hit by a physic.
+		
+		"max_jump_rise"		"40"		// how high can a NPC jump. No jump for cyclope.
+		"max_jump_drop"		"300"		// how high can a NPC drop. No jump for cyclope.
+		"max_jump_dist"		"200"		// how long can a NPC jump (2D). No jump for cyclope.
+		
+		"Yellow_zone"		"190"		// Max close combat distance
+		"Green_zone"		"110"		// Ideal close combat distance
+		"Red_zone"		"60"		// min close combat distance
+		
+//		"life_tohurt"		"0.3"		// When NPC life percentage goes below this value, NPC is hurt and plays hurt animations.
+
+		"DamageThrowPlayer"	"20"		// Damages done on player when throw by cyclope
+		"Damagesbyragdoll"	"20"		// Damage dealt by ragdolls throuwn by Cyclop.	
+		"Damagesbyprop"		"20"		// Damage dealt by ragdolls throuwn by Cyclop.	
+
+		"not_throw_1"		"npc_death_knight"
+		"not_throw_2"		"npc_ghoul"
+		"not_throw_3"		"npc_arantir"
+		"not_throw_4"		"npc_necromancer"
+		"not_throw_5"		"npc_necromancer_lord"
+		"not_throw_6"		"npc_necroguard"
+
+		"RangeViewToStealthMaxInCombat"	"400"	// Radius inside which the player is detected, even if invisible. 
+
+		"StompRadius"		"256"		// Shake radius when cyclope hits the ground.
+
+		"chancetostun"		"0.1"		// Base chance for npc to get stuned (default 0.2).
+		"delaytostun"		"4"		// Amout of time (in secondes) the npc remains stuned (default 10).
+		"nbhittostun"		"10"		// Hits needed before applying the chancetostun factor (defaut 6).
+		
+		"visibilityratio"	"1"		// This will increase the blindness of npcs (default 1.2).
+
+		"move_blocker_mass"	"100"		// mass of objects NPC can push 
+		"MaxMassKickObject"	"1000"		//Max mass of object that can be kicked
+		
+		"npc_health"		"250"		// NPC's life points.
+		
+		"can_be_stand_impaled"	"0"		//avoid to be directly impaled by player
+		
+		"HitSmokeSize"		"16.0"		//Smoke when player hit body
+		"TimeAvoidGrab"		"120.0"		//Avoid to grab player during this time
+		"WorldEffectAttack"	"10"		//Force of effects like ripple/smoke on attacks
+		"DistEffectMax"		"800"		//Dist max to allow blure effect on screen
+		
+		"baseattacklength"	"60"		//attack lenght of all attacks
+
+  		"Vulnerabilities_spells"
+  		{ 
+   			"air_3"		"2"		// Immune to lightning 0. Damage multiplier 2. 
+  			"shock_water"	"2"  		// Immune to electricity in water 0. Damage multiplier 2.   
+  			"water_3"	"0"		// Immune to freeze 0. Damage multiplier 2.
+   		}
+		
+		"weak_All"				// Spell: Stone Skin for receivers.
+		{  
+			"Value"		"0"		// Damage multiplier.
+			"NoHit"		"1"
+		}
+		
+		"weak_Head"				// Spell: Stone Skin for receivers.
+		{  
+			"Value"		"1"		// Damage multiplier.
+		}
+	}
+	
+	"prop_data"					// Position and orientation when the corpse is grabed by player.Only when npc is dead.
+	{
+//		"position_take_x"	"-5"		// Position X. Cyclope cannot be grabed.
+//		"position_take_y"	"-17"		// Position Y. Cyclope cannot be grabed.
+//		"position_take_z"	"15"		// Position Z. Cyclope cannot be grabed.
+
+//		"angle_take_x"		"0"		// Orientation X. Cyclope cannot be grabed.
+//		"angle_take_y"		"0"		// Orientation Y. Cyclope cannot be grabed.
+//		"angle_take_z"		"0"		// Orientation Z. Cyclope cannot be grabed.
+
+
+	}
+	
+	"Telekinesis_Stasis"
+	{
+		"entity_size"  		"3"  		// 1=SMALL, 2=BIG or 3=HUGE 
+	}
+
+ 	"hitboxes_modifier"				// Multipliyer applied to damages when the npc is hit on a specific hitbox.
+	{
+		"0" 			"1.0" 		// HITGROUP_GENERIC
+		"1" 			"1.5" 		// HITGROUP_HEAD
+		"2" 			"0.5" 		// HITGROUP_CHEST
+		"3" 			"1" 		// HITGROUP_STOMACH
+		"4" 			"1.25" 		// HITGROUP_LEFTARM
+		"5" 			"1.25" 		// HITGROUP_RIGHTARM
+		"6" 			"1.25" 		// HITGROUP_LEFTLEG
+		"7" 			"1.25" 		// HITGROUP_RIGHTLEG
+	}
+	
+	"hitboxes_armor"				// Type of armor applied on a specific hitbox. <0.3 = skin, <0.4 = leather, <0.7 = wood,  >=0.7 = metal.
+	{
+		"0" 			"0" 		 
+		"1" 			"0" 		 
+		"2" 			"0" 		 
+		"3" 			"0" 		
+		"4" 			"0" 		 
+		"5" 			"0" 		 
+		"6" 			"0" 		 
+		"7" 			"0" 		 
+	}
+	"earth_1"				// Spell: Stone Skin for receivers.
+	{  
+		"effect"	"0.5"		// Damage multiplier.
+	}
+}
+
+"combatmovedatas"
+{
+//attack normal
+"attack_dual"
+{
+	"impactdirX"	"0"		// Base direction X for impact.
+	"impactdirY"	"1"		// Base direction Y for impact.
+	"impactdirZ"	"0"		// Base direction Z for impact.
+	"HitPow"	"1"		// Damage base multipliyer.
+	"breakparade"	"0" 		// 1: breaks opponent parade.
+	"alwayspush"	"1" 		// 0: no push on the target. 1: the more the damage are high, the more the target is pushed. 2: Force huge push.
+	"attachment_used_for_dir"	"SK_R_Hand"
+	"baseattacklength"		"120"
+	"Attack Length Force"	"0"		// Strength aplied to player when hit.
+	"orientationspeed"	"10"
+}
+
+"attack_forward"
+{
+	"impactdirX"	"0"
+	"impactdirY"	"1"
+	"impactdirZ"	"0"
+	"HitPow"	"1"
+	"breakparade"	"0" 
+	"alwayspush"	"1" 
+	"attachment_used_for_dir" 	"SK_R_Hand"
+	"baseattacklength"		"120"
+	"Attack Length Force"	"0"		// Strength aplied to player when hit.
+	"orientationspeed"	"10"
+}
+
+"attack_foot_crush"
+{
+	"impactdirX"	"0"
+	"impactdirY"	"1"
+	"impactdirZ"	"0"
+	"HitPow"	"1"
+	"breakparade"	"0" 
+	"alwayspush"	"1" 
+	"attachment_used_for_dir" 	"SK_R_Ankle"
+	"baseattacklength"		"120"
+	"orientationspeed"	"10"
+}
+
+"attack_top"
+{
+	"impactdirX"	"0"
+	"impactdirY"	"1"
+	"impactdirZ"	"0"
+	"HitPow"	"1"
+	"breakparade"	"0" 
+	"alwayspush"	"1" 
+	"baseattacklength"		"120"
+	"attachment_used_for_dir" 	"SK_R_Hand"
+	"orientationspeed"	"10"
+}
+
+//end attack normal
+//bone follower attack
+"attack_left"
+{
+	"impactdirX"	"0"
+	"impactdirY"	"1"
+	"impactdirZ"	"0"
+	"HitPow"	"1"
+	"breakparade"	"0" 
+	"alwayspush"	"1"
+	"Attack Length Force"	"120"		// Strength aplied to player when hit.
+	"attachment_used_for_dir" 	"SK_L_Hand"	//used to destroy props
+	"baseattacklength"		"120"
+	"orientationspeed"	"10"
+}
+
+"attack_forward_left"
+{
+	"impactdirX"	"0"
+	"impactdirY"	"1"
+	"impactdirZ"	"0"
+	"HitPow"	"1"
+	"breakparade"	"0" 
+	"alwayspush"	"1"
+	"Attack Length Force"	"120"		// Strength aplied to player when hit.
+	"orientationspeed"	"10"
+}
+
+"attack_right"
+{
+	"impactdirX"	"0"
+	"impactdirY"	"1"
+	"impactdirZ"	"0"
+	"HitPow"	"1"
+	"breakparade"	"0" 
+	"alwayspush"	"1" 
+	"Attack Length Force"	"120"		// Strength aplied to player when hit.
+	"orientationspeed"	"10"
+}
+
+"attack_foot_shoot"
+{
+	"impactdirX"	"0"
+	"impactdirY"	"1"
+	"impactdirZ"	"0"
+	"HitPow"	"1"
+	"breakparade"	"0" 
+	"alwayspush"	"1" 
+	"Attack Length Force"	"120"		// Strength aplied to player when hit.
+	"fallplayer"		"1"
+	"orientationspeed"	"10"
+}
+
+"attack_side_left"
+{
+	"impactdirX"	"0"
+	"impactdirY"	"1"
+	"impactdirZ"	"0"
+	"HitPow"	"1"
+	"breakparade"	"0" 
+	"alwayspush"	"1"
+	"Attack Length Force"	"120"		// Strength aplied to player when hit.
+}
+
+"attack_side_right"
+{
+	"impactdirX"	"0"
+	"impactdirY"	"1"
+	"impactdirZ"	"0"
+	"HitPow"	"1"
+	"breakparade"	"0" 
+	"alwayspush"	"1"
+	"Attack Length Force"	"120"		// Strength aplied to player when hit.
+}
+
+
+"turn_strike_90_left"
+{
+	"impactdirX"	"0"
+	"impactdirY"	"1"
+	"impactdirZ"	"0"
+	"HitPow"	"1"
+	"breakparade"	"0" 
+	"alwayspush"	"1"
+	"Attack Length Force"	"120"		// Strength aplied to player when hit.
+}
+
+"turn_strike_90_right"
+{
+	"impactdirX"	"0"
+	"impactdirY"	"1"
+	"impactdirZ"	"0"
+	"HitPow"	"1"
+	"breakparade"	"0" 
+	"alwayspush"	"1"
+	"Attack Length Force"	"120"		// Strength aplied to player when hit.
+}
+
+"turn_strike_180_left"
+{
+	"impactdirX"	"0"
+	"impactdirY"	"1"
+	"impactdirZ"	"0"
+	"HitPow"	"1"
+	"breakparade"	"0" 
+	"alwayspush"	"1"
+	"Attack Length Force"	"120"		// Strength aplied to player when hit.
+}
+
+"turn_strike_180_right"
+{
+	"impactdirX"	"0"
+	"impactdirY"	"1"
+	"impactdirZ"	"0"
+	"HitPow"	"1"
+	"breakparade"	"0" 
+	"alwayspush"	"1"
+	"Attack Length Force"	"120"		// Strength aplied to player when hit.
+}
+
+"L09_pit_grab_2"  // used attack_right stats
+{
+	"impactdirX"	"0"
+	"impactdirY"	"1"
+	"impactdirZ"	"0"
+	"HitPow"	"1"
+	"breakparade"	"0" 
+	"alwayspush"	"1" 
+	"Attack Length Force"	"120"		// Strength aplied to player when hit.
+	"orientationspeed"	"10"
+}
+
+//end bonefollower attack
+
+//"attack_grab"				// Cyclope grabing player.
+//{
+//	"playvcd"
+//	{
+//		"40" "orc/orc_grab"	// Plays a specific vcd file on a frame (here frame 40).
+//	}
+//}
+}

@@ -1,0 +1,22 @@
+$keyvalues
+{
+	"prop_data"
+	{
+		"position_take_x"	"22"
+		"position_take_y"	"0"
+		"position_take_z"	"-12"
+
+		"angle_take_x"		"0"
+		"angle_take_y"		"185"
+		"angle_take_z"		"0"
+
+		"hands" 		"1"
+		"hands_parameter"	"84"		// ouverture des mains.
+
+		"health" 		"1"
+//		"inflammable" 		"1"		// Spawns flammable stain of oil.
+	}
+}
+	
+
+		

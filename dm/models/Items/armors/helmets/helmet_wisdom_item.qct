@@ -1,0 +1,11 @@
+$keyvalues
+{
+	"prop_data"
+	{	
+	}
+
+	"entity_data"
+	{
+ 		"intelligence_add"		"1"			// add the value to player'statistic		
+	}
+}

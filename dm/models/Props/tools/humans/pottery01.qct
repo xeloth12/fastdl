@@ -1,0 +1,22 @@
+$keyvalues
+{
+	"prop_data"
+	{
+		"base" "Pottery.small"
+		"position_take_x" "28"
+		"position_take_y" "0.3"
+		"position_take_z" "-5"
+
+		"angle_take_x" "0"
+		"angle_take_y" "242"
+		"angle_take_z" "-4"
+
+		"hands" "2"
+		"hands_parameter" "66"
+		"health" "3"
+
+	}
+		
+}
+
+		

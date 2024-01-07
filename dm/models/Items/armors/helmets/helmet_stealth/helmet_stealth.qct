@@ -1,0 +1,58 @@
+$keyvalues
+{
+	"prop_data"
+	{	
+//		Generated QCT section for Inventory Item
+
+		"position_take_x" 		"0.0"
+		"position_take_y" 		"3.0"
+		"position_take_z" 		"5.0"
+		
+		"angle_take_x" 			"0.0"
+		"angle_take_y" 			"90.0"
+		"angle_take_z" 			"90.0"
+		
+		"position_take_x_zoomed" 	"0.0"
+		"position_take_y_zoomed" 	"-5.0"
+		"position_take_z_zoomed" 	"16.0"
+		
+		"angle_take_x_zoomed" 		"90.0"
+		"angle_take_y_zoomed" 		"90.0"
+		"angle_take_z_zoomed" 		"0.0"
+		
+		"rotation_axis_x_zoomed" 	"90.0"
+		"rotation_axis_y_zoomed" 	"0.0"
+		"rotation_axis_z_zoomed" 	"0.0"
+		
+		"rotation_speed" 		"50.0"
+		
+		"item_name" 			"helmet_confusion_name"
+		"description" 			"helmet_confusion_description"
+		
+		"use_inventory_sound"		"Helmet_Equip"
+		
+		"light_inventory_pos_x" 	"-100.0"
+		"light_inventory_pos_y" 	"100.0"
+		"light_inventory_pos_z" 	"-30.0"
+		
+		"light_inventory_dir_x" 	"1.0"
+		"light_inventory_dir_y" 	"0.0"
+		"light_inventory_dir_z" 	"0.0"
+		
+		"light_inventory_color_r" 	"1.0"
+		"light_inventory_color_g" 	"1.0"
+		"light_inventory_color_b" 	"1.0"
+		
+		"light_inventory_color_a" 	"1.0"
+		
+		"light_inventory_radius" 			"500.0"
+		"light_inventory_hotspotradius" 		"10.0"
+		"light_inventory_mediumspotintensityfactor"	"0.2"
+
+  		"armor_value"                   "0.2"		// Percentage of armor added by this piece of equipment.
+	}
+
+	"entity_data"
+	{
+	}
+}
