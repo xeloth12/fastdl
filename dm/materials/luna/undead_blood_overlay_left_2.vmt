@@ -1,0 +1,6 @@
+"Unlitgeneric"
+{
+	"$basetexture" "luna/undead_blood_overlay_left_2"
+	"$ignorez" 1
+	"$translucent" 1
+}

@@ -1,0 +1,5 @@
+"Eyeball"
+{
+	"$basetexture" "models/Npc_Ghoul/pupil_r"
+		"$nolight" 1
+}

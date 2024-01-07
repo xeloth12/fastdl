@@ -1,0 +1,11 @@
+$keyvalues
+{
+	"prop_data"
+	{
+	}
+
+	"entity_data"
+	{
+		"cyclope_throwable"	"1"		// Object is throwable by cyclope
+	}
+}

@@ -1,0 +1,19 @@
+$keyvalues
+{
+	"prop_data"
+	{
+		"position_take_x" "28"
+		"position_take_y" "1"
+		"position_take_z" "-2"
+
+		"angle_take_x" "0"
+		"angle_take_y" "185"
+		"angle_take_z" "0"
+
+		"hands" "2"
+		"hands_parameter" "68"		// ouverture des mains.
+	}
+}
+	
+
+		

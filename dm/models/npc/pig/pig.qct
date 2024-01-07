@@ -1,0 +1,79 @@
+$keyvalues
+{
+ 	"entity_data"
+	{
+		"strength"	  	"7"		// Npc' strength.
+		"dexterity"	  	"7"		// Npc's dexterity
+		"life_regen" 		"0.25"		// Life regeneration (points per seconds).
+		"stunned_duration" 	"1.0"		// Amount of time during which npc is stuned (Time in second).
+		
+//		"versus_click"		"6"		// Number of cliks needed to win a sword contest. No sword contest with goblin.
+		
+		"life_toflee" 		"1.0"		// Life percentage needed for the npc start to flee.
+		"life_stopflee" 		"1.0"		// Life percentage needed for the npc stop to flee.
+		
+		"Blood_ratio" 		"0.3" 		// Blood spawn size (percent).
+		"difficulty" 		"0.9"		// Max 1. When close to max, npc takes more offensive decisions.
+
+ 		"Blood_Color_Type"	"RED"		// default value is "RED"
+ 		
+		"cowardice"		"100"		// If cowardice higher than fearfactor NPC will fell
+		"arrow_impal" 		"1"		// Npc can be impaled by arrows (1: yes, 0: no).
+		"charmable" 		"0" 		// Npc is charmable (1: yes, 0: no). 
+
+		"flies_spawn_time"	"10"		// Flies will be spawned after NPC is dead (time in seconds).
+		
+		"dont_open_door"		"1"		// NPC don't open door
+	}
+
+	"prop_data"					// Position and orientation when the corpse is grabed by player.Only when npc is dead.
+	{
+		"position_take_x" 	"-5"		// Position X.
+		"position_take_y" 	"-17"		// Position Y.
+		"position_take_z" 	"15"		// Position Z.
+
+		"angle_take_x" 		"0"		// Orientation X.
+		"angle_take_y" 		"0"		// Orientation Y.
+		"angle_take_z" 		"0"		// Orientation Z.
+
+		"npc_health"		"50"		// NPC's life points.
+		
+		"maxsightdistancequiet" 	"1000"	// Maximum vision distance, in inches, when in idle mode.
+		"maxsightdistancealerted" 	"1500"	// Maximum vision distance, in inches, when in alert mode.
+		
+		"fieldofviewquiet"  	"90"		// Maximum vision angle, in degres, when in idle mode.
+		"fieldofviewalerted" 	"160"		// Maximum vision angle, in degres, when in alert mode.
+
+		"can_eat_food"			"1"		// NPC can eat object flagged as food.
+	}
+	
+	"Telekinesis_Stasis"
+	{
+		"effect" 		"1"		// 1: can be taken with telekinesis spell.
+		"caster_cost" 		"20"		// Mana cost for the player when using this spell on the npc.
+	}
+
+ 	"hitboxes_modifier"				// Multipliyer applied to damages when the npc is hit on a specific hitbox.
+	{
+		"0" 			"1.0" 		// HITGROUP_GENERIC
+		"1" 			"1.5" 		// HITGROUP_HEAD
+		"2" 			"0.5" 		// HITGROUP_CHEST
+		"3" 			"1" 		// HITGROUP_STOMACH
+		"4" 			"1.25" 		// HITGROUP_LEFTARM
+		"5" 			"1.25" 		// HITGROUP_RIGHTARM
+		"6" 			"1.25" 		// HITGROUP_LEFTLEG
+		"7" 			"1.25" 		// HITGROUP_RIGHTLEG
+	}
+	
+	"hitboxes_armor"				// Type of armor applied on a specific hitbox. <0.3 = skin, <0.4 = leather, <0.7 = wood,  >=0.7 = metal.
+	{
+		"0" 			"0" 
+		"1" 			"0" 
+		"2" 			"0" 
+		"3" 			"0" 
+		"4" 			"0" 
+		"5" 			"0" 
+		"6" 			"0" 
+		"7" 			"0" 
+	}
+}

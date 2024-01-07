@@ -1,0 +1,13 @@
+$keyvalues
+{
+	"prop_data"
+	{
+	"item_name" 			"quiver_name"
+		
+	}
+
+	"entity_data"
+	{
+			"ammo" 		"10"	// Used by bows
+	}
+}

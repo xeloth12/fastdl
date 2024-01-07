@@ -1,0 +1,16 @@
+// Etienne es tu la?
+//Julin es tu la?
+$keyvalues
+{
+	"prop_data"
+	{	
+	}
+ 
+	"entity_data"
+	{
+		"armor_value"			"0.01"
+		"targetability_factor"		"2"
+	}
+}
+
+           

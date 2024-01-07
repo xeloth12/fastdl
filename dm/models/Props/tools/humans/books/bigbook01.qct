@@ -1,0 +1,45 @@
+$keyvalues
+{
+	"prop_data"
+	{	
+		"position_take_x" "0"
+		"position_take_y" "-1"
+		"position_take_z" "9"
+
+		"angle_take_x" "0"
+		"angle_take_y" "90"
+		"angle_take_z" "90"
+
+		"item_name" "book_magic_name"
+		"description" "book_magic_description"
+
+		"position_take_x_zoomed" "0"
+		"position_take_y_zoomed" "3"
+		"position_take_z_zoomed" "36"
+
+		"angle_take_x_zoomed" "0"
+		"angle_take_y_zoomed" "90"
+		"angle_take_z_zoomed" "90"
+
+		"light_inventory_pos_x" "-100"		// gauche - droite +
+		"light_inventory_pos_y" "100"			// bas - haut +
+		"light_inventory_pos_z" "-30"			// derriere + devant -
+		"light_inventory_dir_x" "1"			// pas necessaire pour les omnis, si l'on met des directionels apres
+		"light_inventory_dir_y" "0"
+		"light_inventory_dir_z" "0"
+		"light_inventory_color_r" "1"
+		"light_inventory_color_g" "1"
+		"light_inventory_color_b" "1"
+		"light_inventory_falloff" "500"
+		"light_inventory_hotspotradius" "10"
+		"light_inventory_mediumspotintensityfactor" "0.3"	// facteur d'attenuation du hotspot jusqu'a la fin
+
+		"no_belt_priority" 	"1"		// Not a priority for a belt slot.
+
+		"quest_item"		"2"		
+	}
+	
+	"entity_data"
+	{
+	}
+}

@@ -1,0 +1,32 @@
+$keyvalues
+{
+	"prop_data"
+	{
+//		Generated QCT section for Takable Item
+
+		"position_take_x" 	"-9.0"
+		"position_take_y" 	"-29.0"
+		"position_take_z" 	"26.0"
+
+		"angle_take_x" 		"52.0"
+		"angle_take_y" 		"87.0"
+		"angle_take_z" 		"-12.0"
+	}
+	
+	"entity_data"
+	{
+// 	Value used for smoke explosion after object is destroyed.
+
+		"Break_Smoke_Color_R"	"1"		// Red value for smoke.
+
+                "Break_Smoke_Color_G"	"1"		// Green value for smoke.
+
+                "Break_Smoke_Color_B"	"1"		// Bleu value for smoke.
+
+                "Break_Smoke_Color_A"	"1"		// Alpha for smoke.
+
+                "Break_Smoke_Duration"	"1"		// Duration of smoke (in seconds).
+
+                "Break_Smoke_Size"	"3"		// Size of the smoke (in inches).
+	}
+}

@@ -1,0 +1,65 @@
+$keyvalues
+{
+	"prop_data"
+	{	
+		"position_take_x" "0"				// Object position in inventoty slot.
+		"position_take_y" "0"				//
+		"position_take_z" "1.3"				//
+
+		"angle_take_x" "250"				// Object orientation in inventory slot.
+		"angle_take_y" "0"				//
+		"angle_take_z" "-38"				//
+
+		"position_take_x_big" "0"			// Object position in equipment slot.
+		"position_take_y_big" "0"			//
+		"position_take_z_big" "1.7"			//
+	
+		"angle_take_x_big" "250"			// Object orientation in equipment slot.
+		"angle_take_y_big" "0"				//
+		"angle_take_z_big" "0"				//
+
+		"position_take_x_zoomed" "0"			// Object position in zoomed window equipment.
+		"position_take_y_zoomed" "0"			//
+		"position_take_z_zoomed" "1.7"			//
+
+		"angle_take_x_zoomed" "0"			// Object orientation in zoomed window equipment.
+		"angle_take_y_zoomed" "90"			//
+		"angle_take_z_zoomed" "0"			//
+
+		"rotation_axis_x_zoomed" "45"			// Angles specifie a rotation axis in zoomed window equipment
+		"rotation_axis_y_zoomed" "90"			//
+		"rotation_axis_z_zoomed" "0"			//
+
+		"rotation_speed" "50"
+		"item_class" "prop_physics"
+
+		"item_name" "ring_secondchance_name"
+		"description" "ring_secondchance_description"
+		
+		"equip_sound"			"Ring_SecondChance_Equip"
+		"unequip_sound"		"Ring_SecondChance_UnEquip"
+		
+		"light_inventory_pos_x" "-20"			// Light position in inventory. Left - / Right +
+		"light_inventory_pos_y" "-90"			// Down - / Up +
+		"light_inventory_pos_z" "-100"			// Far + / Close -
+
+		"light_inventory_dir_x" "1"			// This is not used for omni lights.
+		"light_inventory_dir_y" "0"			// It will be used once we will use directional lights.
+		"light_inventory_dir_z" "0"
+
+		"light_inventory_color_r" "1"			// Light's color.
+		"light_inventory_color_g" "1"			//
+		"light_inventory_color_b" "1"			//
+		
+		"light_inventory_radius" "500"
+		"light_inventory_hotspotradius" "120"
+		"light_inventory_mediumspotintensityfactor" "1.0"	// facteur d'attenuation du hotspot jusqu'a la fin
+	}
+
+	"entity_data"
+	{
+		"second_chance"		"1"			// Player's health is restored when 0 is reached
+		"glinting"	 	"1"
+		"glint_ratio"		"0.5"		
+	}
+}

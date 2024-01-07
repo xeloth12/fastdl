@@ -1,0 +1,81 @@
+$keyvalues
+{
+	"prop_data"
+	{	
+//		Generated QCT section for Inventory Item
+
+		"position_take_x" 		"1.0"
+		"position_take_y" 		"2.0"
+		"position_take_z" 		"14.0"
+
+		"angle_take_x" 			"90.0"
+		"angle_take_y" 			"90.0"
+		"angle_take_z" 			"0.0"
+
+		"position_take_x_zoomed" 	"0.0"
+		"position_take_y_zoomed" 	"0.0"
+		"position_take_z_zoomed" 	"27.0"
+
+		"angle_take_x_zoomed" 		"0.0"
+		"angle_take_y_zoomed" 		"0.0"
+		"angle_take_z_zoomed" 		"270.0"
+
+		"rotation_axis_x_zoomed" 	"90.0"
+		"rotation_axis_y_zoomed" 	"0.0"
+		"rotation_axis_z_zoomed" 	"0.0"
+
+		"rotation_speed" 		"40.0"
+
+		"item_name" 			"shield_lava_name"
+		"description" 			"shield_lava_description"
+		
+		"equip_sound"			"Shield_Equip"
+		"unequip_sound"		"Shield_UnEquip"
+
+		"light_inventory_pos_x" 	"-100.0"
+		"light_inventory_pos_y" 	"100.0"
+		"light_inventory_pos_z" 	"-30.0"
+
+		"light_inventory_dir_x" 	"1.0"
+		"light_inventory_dir_y" 	"0.0"
+		"light_inventory_dir_z" 	"0.0"
+
+		"light_inventory_color_r" 	"1.0"
+		"light_inventory_color_g" 	"1.0"
+		"light_inventory_color_b" 	"1.0"
+
+		"light_inventory_color_a" 	"1.0"
+
+		"light_inventory_radius" 			"500.0"
+		"light_inventory_hotspotradius" 		"10.0"
+		"light_inventory_mediumspotintensityfactor"	"0.2"
+
+		"position_take_x_big" 		"1.0"
+		"position_take_y_big" 		"2.0"
+		"position_take_z_big" 		"14.0"
+
+		"angle_take_x_big" 		"90.0"
+		"angle_take_y_big" 		"90.0"
+		"angle_take_z_big" 		"0.0"
+
+		 "quest_item"	"2"		
+	}
+
+	"entity_data"
+	{
+        	"health"	"120"
+       		"parry_cos"	"0.7"			// 1 : always parry. 0 : never parry.
+
+		"protect_from_fire"	"0.25"			// damage multiplier for one type of damage.       		
+
+    		skills_required
+ 	 	{
+ 			"combat"	"3"
+ 		}       		   	
+	}
+
+	"player"
+	{
+        	"HealthCoeffShield"	"10"
+	}	
+}

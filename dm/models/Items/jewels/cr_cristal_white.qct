@@ -1,0 +1,56 @@
+$keyvalues
+{
+	"prop_data"
+	{	
+		"position_take_x" "0"				// Object position in inventoty slot.
+		"position_take_y" "0"				//
+		"position_take_z" "3"				//
+
+		"angle_take_x" "0"				// Object orientation in inventory slot.
+		"angle_take_y" "0"				//
+		"angle_take_z" "-45"				//
+
+		"position_take_x_zoomed" "0"			// Object position in zoomed window equipment.
+		"position_take_y_zoomed" "0"			//
+		"position_take_z_zoomed" "7"			//
+
+		"angle_take_x_zoomed" "0"			// Object orientation in zoomed window equipment.
+		"angle_take_y_zoomed" "90"			//
+		"angle_take_z_zoomed" "0"			//
+
+		"rotation_axis_x_zoomed" "45"			// Angles specifie a rotation axis in zoomed window equipment
+		"rotation_axis_y_zoomed" "90"			//
+		"rotation_axis_z_zoomed" "0"			//
+
+		"rotation_speed" "50"
+		"item_class" "prop_physics"
+		
+		"item_name" 			"it08_crystal_name"	// Set in MM\resource\english\system_strings_lvl_08
+		"description" 			"it08_crystal_desc"	// Set in MM\resource\english\system_strings_lvl_08
+
+		"light_inventory_pos_x" "-20"			// Light position in inventory. Left - / Right +
+		"light_inventory_pos_y" "-90"			// Down - / Up +
+		"light_inventory_pos_z" "-100"			// Far + / Close -
+
+		"light_inventory_dir_x" "1"			// This is not used for omni lights.
+		"light_inventory_dir_y" "0"			// It will be used once we will use directional lights.
+		"light_inventory_dir_z" "0"
+
+		"light_inventory_color_r" "1"			// Light's color.
+		"light_inventory_color_g" "1"			//
+		"light_inventory_color_b" "1"			//
+		
+		"light_inventory_radius" "500"
+		"light_inventory_hotspotradius" "120"
+		"light_inventory_mediumspotintensityfactor" "0.3"	// facteur d'attenuation du hotspot jusqu'a la fin
+
+		"no_belt_priority" 		"1"		// Not a priority for a belt slot.
+
+		"quest_item"			"1"
+	}
+
+	"entity_data"
+	{
+		"glinting"	 "1"
+	}
+}

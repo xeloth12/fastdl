@@ -1,0 +1,21 @@
+$keyvalues
+{
+	"prop_data"
+	{
+		"position_take_x"	"22"
+		"position_take_y"	"2.1"
+		"position_take_z"	"2"
+
+		"angle_take_x"		"0"
+		"angle_take_y"		"45"
+		"angle_take_z"		"135"
+
+		"hands"			"2"
+		"hands_parameter"	"70.1"
+	}
+
+	"entity_data"
+	{
+		"cyclope_throwable"	"1"		// Object is throwable by cyclope
+	}
+}

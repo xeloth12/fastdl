@@ -1,0 +1,66 @@
+$keyvalues
+{
+	"prop_data"
+	{
+//		Generated QCT section for Takable Item
+
+//		"position_take_x" 	"18.0"
+//		"position_take_y" 	"1.0"
+//		"position_take_z" 	"2.0"
+
+//		"angle_take_x" 		"30.0"
+//		"angle_take_y" 		"-16.0"
+//		"angle_take_z" 		"3.0"
+
+//		"hands_parameter" 	"89.0"
+//		"hands" 		"1"
+
+		"position_take_x" 		"12.0"
+		"position_take_y" 		"-20.0"
+		"position_take_z" 		"10.0"
+
+		"angle_take_x" 			"0.0"
+		"angle_take_y" 			"125.0"
+		"angle_take_z" 			"-90.0"
+
+		"position_take_x_zoomed" 	"-13.0"
+		"position_take_y_zoomed" 	"0.0"
+		"position_take_z_zoomed" 	"24.0"
+
+		"angle_take_x_zoomed" 		"0.0"
+		"angle_take_y_zoomed" 		"0.0"
+		"angle_take_z_zoomed" 		"0.0"
+
+		"rotation_axis_x_zoomed" 	"0.0"
+		"rotation_axis_y_zoomed" 	"0.0"
+		"rotation_axis_z_zoomed" 	"0.0"
+
+		"rotation_speed" 		"50.0"
+		
+		"stunmultiplicator"		"2"		// Multiplyer factor for stuning npcs (default 1).
+
+		"item_name" 			"candle_stick_name"
+		"description" 			"candle_stick_description"
+
+		"light_inventory_pos_x" 	"-20.0"
+		"light_inventory_pos_y" 	"-90.0"
+		"light_inventory_pos_z" 	"-100.0"
+
+		"light_inventory_dir_x" 	"1.0"
+		"light_inventory_dir_y" 	"0.0"
+		"light_inventory_dir_z" 	"0.0"
+
+		"light_inventory_color_r" 	"1.0"
+		"light_inventory_color_g" 	"1.0"
+		"light_inventory_color_b" 	"1.0"
+
+		"light_inventory_color_a" 	"1.0"
+
+		"light_inventory_radius" 			"500.0"
+		"light_inventory_hotspotradius" 		"120.0"
+		"light_inventory_mediumspotintensityfactor" 	"0.8"
+	}
+}
+	
+
+		

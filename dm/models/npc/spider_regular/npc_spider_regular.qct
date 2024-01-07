@@ -1,0 +1,205 @@
+$keyvalues
+{
+ 	"entity_data"
+	{
+		"strength"	  		"2"		// Npc' strenght.
+		"dexterity"	  		"1"		// Npc's dexterity.
+		"life_regen" 			"0.25"		// Life regeneration (points per seconds).
+		"stunned_duration" 		"4.0"		// Amount of time during which npc is stuned (Time in second).
+
+		"Check_Corpse_Chance" 			"1"
+		"Corpse_Check_Dist"			"25"
+		"Scavenge_Duration"			"20"
+		"Chance_to_be_returned_by_big_slash" 	"0.3"
+
+		"Poison_Damages"		"3"
+		"Poison_Duration"		"20"
+
+
+//		"versus_click"			"8"		// Number of cliks needed to win a sword contest. No sword contest with spider.
+
+		"fielofviewheightangle"	"60"		// field of view height angle. 
+
+		"flies_spawn_time"	"10"		// Flies will be spawned after NPC is dead (time in seconds).
+				
+		"life_toflee" 			"0.0"		// Life percentage needed for the npc start to flee.
+		"life_stopflee" 		"0.8"		// Life percentage needed for the npc stop to flee.
+//		"life_tobeg" 			"0"		// Npc starts to beg if its life goes under this percentage. No beg for spider.
+
+		"Blood_ratio" 			"0.3" 		// Blood spawn size (percent).
+		"difficulty" 			"0.9"		// Max 1. When close to max, npc takes more offensive decisions.
+
+          	"mana_drainable"  		"1"		// Can be mana drained.
+          	
+ 		"Blood_Color_Type"		"RED"		// default value is "RED"
+// 		"Blood_Color_Type"		"SPIDER"	// default value is "RED"
+ 		
+		"RangeViewToStealthMaxInCombat"	"200"	// Radius inside which the player is detected, even if invisible.
+				
+//		"NWDmg" 			"5"		// Damage dealt by npc if no weapon used.
+//		"NWPiercing" 			"0.1"		// Piercing coeff dealt by npc if no weapon used.
+//		"NWCritHit" 			"4"		// Critical hit dealt by npc if no weapon used.
+		
+		"cowardice"			"100"		// If cowardice higher than fearfactor NPC will flee.
+		"arrow_impal" 			"0"		// Npc can be impaled by arrows (1: yes, 0: no).
+		"charmable" 			"1"		// Npc is charmable (1: yes, 0: no). 
+		
+		"maxsightdistancequiet" 	"1500"		// Maximum vision distance, in inches, when in idle mode.
+		"maxsightdistancealerted" 	"1500"		// Maximum vision distance, in inches, when in alert mode.
+		
+		"fieldofviewquiet"  		"90"		// Maximum vision angle, in degres, when in idle mode.
+		"fieldofviewalerted" 		"160"		// Maximum vision angle, in degres, when in alert mode.
+		"fielofviewzoffset"		"50"		// Z offset for view cone
+
+		"TimeKnockedDownByPhysics" 	"3"  		// Time npc stay knocked down after being hit by a physic.
+		
+		"max_jump_rise"			"40"		// how high can a NPC jump. No jump for spider.
+		"max_jump_drop"			"300"		// how high can a NPC drop. No jump for spider.
+		"max_jump_dist"			"200"		// how long can a NPC jump (2D). No jump for spider.
+
+		"deaf"				"0"		// 1: NPC is deaf, so player can make noise and it does not turn to him.
+
+//		"life_tohurt"			"0.3"		// When NPC life percentage goes below this value, NPC is hurt and plays hurt animations.
+
+                "dodge_on_kick_add_chance"      "0.2"           // Percentage chance added after every kick.
+                "dodge_on_kick_init_chance"     "0.1"           // Base chance percentage for npc to dodge player's kick.
+				
+		"chancetostun"			"0.1"		// Base chance for npc to get stuned (default 0.2).
+		"delaytostun"			"4"		// Amout of time (in secondes) the npc remains stuned (default 10).
+		"nbhittostun"			"10"		// Hits needed before applying the chancetostun factor (defaut 6).
+		
+		"visibilityratio"		"1.4"		// This will increase the blindness of npcs (default 1.2).
+
+
+		"Yellow_zone"			"60"		// Max close combat distance
+		"Green_zone"			"50"		// Ideal close combat distance
+		"Red_zone"				"10"		// min close combat distance
+
+		"can_eat_food"			"1"		// NPC can eat object flagged as food.
+		"can_eat_corpse" 		"1"		// NPC can eat bodies flagged as corpse.
+		
+		"npc_health"			"25"		// NPC's life points.
+		"dont_open_door"		"1"		// NPC don't open door
+
+  		"Vulnerabilities_spells"
+  		{ 
+   			"fire"		"2"		// Immune to fire 0. Damage multiplier 2.     
+   			"earth_2"	"0"		// Immune to poison 0. Damage multiplier 2.
+  		        "shock_water"   "2"             // Immune to electricity in water 0. Damage multiplier 2.  			   			   			
+   		}				
+	
+		"poisoned"			"0.2"		// Base chance of inflicting a poisonous hit.
+	}
+
+	"prop_data"					// Position and orientation when the corpse is grabed by player.Only when npc is dead.
+	{
+//		"position_take_x" 	"-5"		// Position X. Paokai cannot be grabed.
+//		"position_take_y" 	"-17"		// Position Y. Paokai cannot be grabed.
+//		"position_take_z" 	"15"		// Position Z. Paokai cannot be grabed.
+
+//		"angle_take_x"		"0"		// Orientation X. Paokai cannot be grabed.
+//		"angle_take_y"		"0"		// Orientation Y. Paokai cannot be grabed.
+//		"angle_take_z"		"0"		// Orientation Z. Paokai cannot be grabed.
+	}
+
+	"Telekinesis_Stasis"
+	{
+		"effect" 		"1"		// 1: can be taken with telekinesis spell.
+		"caster_cost" 		"20"		// Mana cost for the player when using this spell on the npc.
+	}
+	
+ 	"hitboxes_modifier"				// Multipliyer applied to damages when the npc is hit on a specific hitbox.
+	{
+		"0" 		"1.0" 			// HITGROUP_GENERIC
+		"1" 		"1.5" 			// HITGROUP_HEAD
+		"2" 		"1" 			// HITGROUP_CHEST
+		"3" 		"1" 			// HITGROUP_STOMACH
+		"4" 		"1" 			// HITGROUP_LEFTARM
+		"5" 		"1" 			// HITGROUP_RIGHTARM
+		"6" 		"1" 			// HITGROUP_LEFTLEG
+		"7" 		"1" 			// HITGROUP_RIGHTLEG
+	}
+	
+	"hitboxes_armor"	// Type of armor applied on a specific hitbox. <0.3 = skin, <0.4 = leather, <0.7 = wood,  >=0.7 = metal.
+	{
+		"0" 		"0" 
+		"1" 		"0" 
+		"2" 		"0.7"
+		"3" 		"0.7"
+		"4" 		"0" 
+		"5" 		"0" 
+		"6" 		"0.3"
+		"7" 		"0.3"
+	}
+}
+"combatmovedatas"
+{
+"attack_1" 
+{
+	"impactdirX"	"1"		// Base direction X for impact.
+	"impactdirY"	"0"		// Base direction Y for impact.
+	"impactdirZ"	"0"		// Base direction Z for impact.
+	"HitPow"	"1"		// Damage multiplier
+	"breakparade"	"0"		// 1: Breaks oponent's parry
+	"alwayspush"	"0" 		// 0: no push on the target. 1: the more the damage are high, the more the target is pushed. 2: Force huge push.
+	"versus"	"0"		// 1: triggers sword's contest.
+	"no_turn_head"	"1"		// 1: npc does not look at opponent during the attack.
+	"impactcoeff"	"100"	
+	"blur"		"4"		// 0 to 4 : 4 = max blur
+}
+"attack_2" 
+{
+	"impactdirX"	"1"
+	"impactdirY"	"0"
+	"impactdirZ"	"0"
+	"HitPow"	"1.5"
+	"breakparade"	"0"
+	"alwayspush"	"1" 
+	"versus"	"0"
+	"no_turn_head"	"1"
+	"impactcoeff"	"100"
+	"blur"		"4"
+}
+
+"attack_3" 
+{
+	"impactdirX"	"1"
+	"impactdirY"	"0"
+	"impactdirZ"	"0"
+	"HitPow"	"1"
+	"breakparade"	"0"
+	"alwayspush"	"0" 
+	"versus"	"0"
+	"no_turn_head"	"1"
+	"impactcoeff"	"100"
+	"blur"		"4"
+}
+
+"attack_4" 
+{
+	"impactdirX"	"1"
+	"impactdirY"	"0"
+	"impactdirZ"	"0"
+	"HitPow"	"0.5"
+	"breakparade"	"0"
+	"alwayspush"	"0" 
+	"versus"	"0"
+	"no_turn_head"	"1"
+	"impactcoeff"	"100"
+	"blur"		"4"
+}
+
+"attack_jump_strike" 
+{
+	"impactdirX"	"1"
+	"impactdirY"	"0"
+	"impactdirZ"	"0"
+	"HitPow"		"0.5"
+	"forcebreakparade" "1"
+	"alwayspush"	"2" 
+	"versus"		"0"
+	"no_turn_head"	"1"
+	"impactcoeff"	"100"
+	"blur"		"4"
+}
+}

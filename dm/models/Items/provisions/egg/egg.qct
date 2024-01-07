@@ -1,0 +1,59 @@
+$keyvalues
+{
+	"prop_data"
+	{	
+//		Generated QCT section for Inventory Item
+
+		"position_take_x" 		"0.2"
+		"position_take_y" 		"-1.2"
+		"position_take_z" 		"2.5"
+
+		"angle_take_x" 			"0.0"
+		"angle_take_y" 			"0.0"
+		"angle_take_z" 			"-90.0"
+
+		"position_take_x_zoomed" 	"0.0"
+		"position_take_y_zoomed" 	"-1.0"
+		"position_take_z_zoomed" 	"4.0"
+
+		"angle_take_x_zoomed" 		"90.0"
+		"angle_take_y_zoomed" 		"90.0"
+		"angle_take_z_zoomed" 		"0.0"
+
+		"rotation_axis_x_zoomed" 	"90.0"
+		"rotation_axis_y_zoomed" 	"0.0"
+		"rotation_axis_z_zoomed" 	"0.0"
+
+		"rotation_speed" 		"30.0"
+
+		"item_name" 			"egg_name"
+		"description" 			"egg_description"
+
+		"use_inventory_sound" 		"player_eat"
+		
+		"light_inventory_pos_x" 	"-20.0"
+		"light_inventory_pos_y" 	"-90.0"
+		"light_inventory_pos_z" 	"-100.0"
+
+		"light_inventory_dir_x" 	"1.0"
+		"light_inventory_dir_y" 	"0.0"
+		"light_inventory_dir_z" 	"0.0"
+
+		"light_inventory_color_r" 	"1.0"
+		"light_inventory_color_g" 	"1.0"
+		"light_inventory_color_b" 	"1.0"
+
+		"light_inventory_color_a" 	"1.0"
+
+		"light_inventory_radius" 			"500.0"
+		"light_inventory_hotspotradius" 		"120.0"
+		"light_inventory_mediumspotintensityfactor"	"0.3"
+
+		"no_belt_priority" 		"1"		// Not a priority for a belt slot.
+	}
+
+	"entity_data"
+	{
+		"give_health"			"3"		// Health points restored when this oject is eaten.
+	}
+}

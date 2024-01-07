@@ -1,0 +1,18 @@
+$keyvalues
+{
+	"prop_data"
+	{
+//		Generated QCT section for Takable Item
+
+		"position_take_x" 	"47.0"
+		"position_take_y" 	"0.0"
+		"position_take_z" 	"-13.0"
+		
+		"angle_take_x" 		"0.0"
+		"angle_take_y" 		"272.0"
+		"angle_take_z" 		"6.0"
+		
+		"hands_parameter" 	"35.0"
+		"hands" 		"2"
+	}
+}

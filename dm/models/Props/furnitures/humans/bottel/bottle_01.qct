@@ -1,0 +1,23 @@
+$keyvalues
+{
+	"prop_data"
+	{
+		"position_take_x" "18"
+		"position_take_y" "0"
+		"position_take_z" "1"
+
+		"angle_take_x" "1"
+		"angle_take_y" "228"
+		"angle_take_z" "-26"
+
+		"hands" "1"
+		"hands_parameter" "50"		// ouverture des mains.
+
+		"health" "5"
+
+		"no_belt_priority" 		"1"		// Not a priority for a belt slot.	
+	}
+}
+	
+
+		

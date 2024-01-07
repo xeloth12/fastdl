@@ -1,0 +1,84 @@
+$keyvalues
+{
+ 	"entity_data"
+	{
+		"strength"	  	"1"		// Npc' strength.
+		"dexterity"	  	"1"		// Npc's dexterity.
+		"life_regen" 		"0.25"		// Life regeneration (points per seconds).
+		"stunned_duration" 	"1.0"		// Amount of time during which npc is stuned (Time in second).
+
+//		"versus_click"		"8"		// Number of cliks needed to win a sword contest. No sword contest with crow.
+
+		"life_toflee" 		"0.0"		// Life percentage needed for the npc start to flee.
+		"life_stopflee" 	"0.8"		// Life percentage needed for the npc stop to flee.
+		"life_tobeg" 		"0"		// Npc starts to beg if its life goes under this percentage.
+		
+		"Blood_ratio" 		"0.3"		// Blood spawn size (percent).
+		"difficulty" 		"0.4"		// Max 1. When close to max, npc takes more offensive decisions.
+
+ 		"Blood_Color_Type"	"RED"		// default value is "RED"
+ 		
+//		"NWDmg" 		"5"		// Damage dealt by npc if no weapon used.
+//		"NWPiercing" 		"0.1"		// Piercing coeff dealt by npc if no weapon used.
+//		"NWCritHit" 		"4"		// Critical hit dealt by npc if no weapon used.
+
+		"cowardice"		"100"		// If cowardice higher than fearfactor (set by weapon used by opponent), NPC will flee.
+		"arrow_impal" 		"0"		// Npc can be impaled by arrows (1: yes, 0: no).
+		"charmable" 		"0" 		// Npc is charmable (1: yes, 0: no).
+
+		"flies_spawn_time"	"10"		// Flies will be spawned after NPC is dead (time in seconds).
+				
+		"maxsightdistancequiet" 	"1000"	// Maximum vision distance, in inches, when in idle mode.
+		"maxsightdistancealerted" 	"1500"	// Maximum vision distance, in inches, when in alert mode.
+		
+		"fieldofviewquiet"  	"90"		// Maximum vision angle, in degres, when in idle mode.
+		"fieldofviewalerted" 	"160"		// Maximum vision angle, in degres, when in alert mode.
+
+//		"max_jump_rise"		"40"		// how high can a NPC jump. No jump for Arantir.
+//		"max_jump_drop"		"300"		// how high can a NPC drop. No jump for Arantir.
+//		"max_jump_dist"		"200"		// how long can a NPC jump (2D). No jump for Arantir.
+
+		"npc_health"		"15"		// Npc's health.
+	}
+	
+	"prop_data"					// Position and orientation when the corpse is grabed by player.Only when npc is dead. 
+	{
+//		"position_take_x"	"-5"		// Position X. No grab for crow.
+//		"position_take_y"	"-17"		// Position Y.
+//		"position_take_z"	"15"		// Position Z.
+
+//		"angle_take_x"		"0"		// Orientation X.
+//		"angle_take_y"		"0"		// Orientation Y.
+//		"angle_take_z"		"0"		// Orientation Z.
+	}
+	
+	"Telekinesis_Stasis"
+	{
+		"effect" 		"0"		// 1: can be taken with telekinesis spell.
+		"caster_cost" 		"0"		// Mana cost for the player when using this spell on the npc.
+	}
+	
+ 	"hitboxes_modifier"				// Multipliyer applied to damages when the npc is hit on a specific hitbox.
+	{
+		"0" 			"1" 		// HITGROUP_GENERIC
+		"1" 			"1" 		// HITGROUP_HEAD
+		"2" 			"1" 		// HITGROUP_CHEST
+		"3" 			"1" 		// HITGROUP_STOMACH
+		"4" 			"1" 		// HITGROUP_LEFTARM
+		"5" 			"1" 		// HITGROUP_RIGHTARM
+		"6" 			"1" 		// HITGROUP_LEFTLEG
+		"7" 			"1" 		// HITGROUP_RIGHTLEG
+	}
+	
+	"hitboxes_armor"				// Type of armor applied on a specific hitbox. <0.3 = skin, <0.4 = leather, <0.7 = wood,  >=0.7 = metal.
+	{
+		"0" 			"0" 		 
+		"1" 			"0" 		 
+		"2" 			"0" 		 
+		"3" 			"0" 		
+		"4" 			"0" 		 
+		"5" 			"0" 		 
+		"6" 			"0" 		 
+		"7" 			"0" 
+	}
+}

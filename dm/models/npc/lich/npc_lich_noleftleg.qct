@@ -1,0 +1,20 @@
+$keyvalues
+{
+	"entity_data"
+	{
+	}
+	
+	"prop_data"					// Position and orientation when the corpse is grabed by player.Only when npc is dead.
+	{
+		"position_take_x" 	"-5"		// Position X.
+		"position_take_y" 	"-17"		// Position Y.
+		"position_take_z" 	"15"		// Position Z.
+
+		"angle_take_x" 		"0"		// Orientation X.
+		"angle_take_y" 		"0"		// Orientation Y.
+		"angle_take_z" 		"0"		// Orientation Z.
+	}
+}	
+
+
+

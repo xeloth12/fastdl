@@ -1,0 +1,23 @@
+$keyvalues
+{
+	"prop_data"
+	{
+		"position_take_x" 	"33"
+		"position_take_y" 	"0"
+		"position_take_z" 	"-23"
+
+		"angle_take_x" 		"0"
+		"angle_take_y" 		"0"
+		"angle_take_z" 		"0"
+
+		"hands" 		"2"
+		"hands_parameter" 	"41"
+
+		"min_dmg_to_hurt" 	"2"		// No damage inflicted when amount is less than this value. 
+	}
+	
+	"entity_data"
+	{
+		"cyclope_throwable"	"1"		// Object is throwable by cyclope
+	}
+}

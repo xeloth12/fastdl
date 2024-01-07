@@ -1,0 +1,24 @@
+$keyvalues
+{
+	"prop_data"
+	{
+		"position_take_x" 	"24"
+		"position_take_y" 	"7"
+		"position_take_z" 	"-7"
+
+		"angle_take_x" 		"-28"
+		"angle_take_y" 		"121"
+		"angle_take_z" 		"9"
+
+		"hands" 		"1"
+		"hands_parameter" 	"32"
+
+		"health" 		"5"
+
+//		"inflammable" 		"1"		// Spawns flammable stain of oil.
+		"easybreak"		"1"		// Will break if thrown by player.
+	}
+}
+	
+
+		

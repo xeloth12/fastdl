@@ -1,0 +1,23 @@
+$keyvalues
+{
+	"prop_data"
+	{
+//		Generated QCT section for Takable Item
+
+		"position_take_x" 	"20.0"
+		"position_take_y" 	"1.1"
+		"position_take_z" 	"4.0"
+		
+		"angle_take_x" 		"0.0"
+		"angle_take_y" 		"45.0"
+		"angle_take_z" 		"135.0"
+		
+		"hands_parameter" 	"66.1"
+		"hands" 		"2"
+	}
+
+	"entity_data"
+	{
+		"cyclope_throwable"	"1"		// Object is throwable by cyclope
+	}
+}

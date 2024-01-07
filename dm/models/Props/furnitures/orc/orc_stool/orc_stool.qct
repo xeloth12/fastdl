@@ -1,0 +1,22 @@
+$keyvalues
+{
+	"prop_data"
+	{
+		"allowstatic" "1"
+
+//		Generated QCT section for Takable Item
+
+		"position_take_x" 	"20.6"
+		"position_take_y" 	"-8.7"
+		"position_take_z" 	"-4.0"
+
+		"angle_take_x" 		"30.0"
+		"angle_take_y" 		"-45.0"
+		"angle_take_z" 		"0.0"
+
+		"hands_parameter" 	"44.0"
+		"hands" 		"1"
+		
+		"min_dmg_to_hurt" 	"2"		// No damage inflicted when amount is less than this value. 		
+	}
+}

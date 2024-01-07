@@ -1,0 +1,81 @@
+$keyvalues
+{
+	"prop_data"
+	{	
+//		Generated QCT section for Inventory Item
+
+		"position_take_x" 		"0.0"
+		"position_take_y" 		"0.0"
+		"position_take_z" 		"15.0"
+
+		"angle_take_x" 			"90.0"
+		"angle_take_y" 			"0.0"
+		"angle_take_z" 			"30.0"
+
+		"position_take_x_zoomed" 	"0.0"
+		"position_take_y_zoomed" 	"3.0"
+		"position_take_z_zoomed" 	"34.0"
+
+		"angle_take_x_zoomed" 		"90.0"
+		"angle_take_y_zoomed" 		"0.0"
+		"angle_take_z_zoomed" 		"0.0"
+
+		"rotation_axis_x_zoomed" 	"90.0"
+		"rotation_axis_y_zoomed" 	"0.0"
+		"rotation_axis_z_zoomed" 	"0.0"
+
+		"rotation_speed" 		"50.0"
+
+		"item_name" 			"bow_rope_name"
+		"description" 			"bow_rope_description"
+		"equip_sound"			"Bow_Equip"
+		"unequip_sound"			"Bow_UnEquip"
+
+		"light_inventory_pos_x" 	"-100.0"
+		"light_inventory_pos_y" 	"100.0"
+		"light_inventory_pos_z" 	"-30.0"
+
+		"light_inventory_dir_x" 	"1.0"
+		"light_inventory_dir_y" 	"0.0"
+		"light_inventory_dir_z" 	"0.0"
+
+		"light_inventory_color_r" 	"1.0"
+		"light_inventory_color_g" 	"1.0"
+		"light_inventory_color_b" 	"1.0"
+
+		"light_inventory_color_a" 	"1.0"
+
+		"light_inventory_radius" 			"0.0"
+		"light_inventory_hotspotradius" 		"10.0"
+		"light_inventory_mediumspotintensityfactor" 	"0.4"
+
+		"position_take_x_big" 	"0.0"
+		"position_take_y_big" 	"0.0"
+		"position_take_z_big" 	"12.0"
+
+		"angle_take_x_big" 	"90.0"
+		"angle_take_y_big" 	"0.0"
+		"angle_take_z_big" 	"0.0"
+		
+		"halo_scale"		"5"
+		"magic_halo"		"255 255 0 128"	
+
+		"quest_item"		"1"	// 0 : Not quest item. 1 : Primary quest item (not stackable and not dropable). 2 : Secondary quest item (not stackable and dropable).
+	}
+
+	"entity_data"
+	{
+		"WDmg"			"1"
+
+		"rangeattack"		"80"
+		"WCritHit"		"0"
+		"WPiercing"		"0.3"
+
+		"health"           	"150"
+		"damageothercoeff" 	"1"
+		"impactothercoeff" 	"100"
+       		"crushcoeff"       	"1"
+		"halo_scale"		"5"
+		"magic_halo"		"255 255 0 128"
+	}
+}

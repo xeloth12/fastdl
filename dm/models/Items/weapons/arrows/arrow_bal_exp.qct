@@ -1,0 +1,28 @@
+$keyvalues
+{
+	"prop_data"
+	{	
+	}
+
+	"entity_data"
+	{
+		"Break_Explosion_Size"			"15"
+		"Break_Explosion_Damages"		"200"
+		"Break_Explosion_Damages_Player"	"15"
+		"Break_Explosion_Radius"		"280"
+		"Break_Explosion_Push"			"300"	
+		
+		"MMItemTrail" "1"
+	}
+	
+	"trail_data"
+	{
+ 		"NPC_Trail_Fade_Time"    	"1.2"
+ 		
+ 		"NPC_Trail_Alpha_Mul"    	"0.5"
+ 		
+ 		"NPC_Trail_Color_R_Mul"  	"0.5"
+ 		"NPC_Trail_Color_G_Mul"  	"0.5"
+ 		"NPC_Trail_Color_B_Mul"  	"0.5"
+ 	}
+}

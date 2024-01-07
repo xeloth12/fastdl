@@ -1,0 +1,75 @@
+$keyvalues
+{
+	"armor_data"
+	{
+		"player_model"			"models\npc\player\Player_mail.mdl"
+		"player_model_first"		"models\npc\player\First_mail.mdl"
+	}
+
+	"prop_data"
+	{	
+//		Generated QCT section for Inventory Item
+
+		"position_take_x" 		"0.0"
+		"position_take_y" 		"0.0"
+		"position_take_z" 		"18.0"
+
+		"angle_take_x" 			"0.0"
+		"angle_take_y" 			"270.0"
+		"angle_take_z" 			"-180.0"
+
+		"position_take_x_zoomed" 	"0.0"
+		"position_take_y_zoomed" 	"0.0"
+		"position_take_z_zoomed" 	"30.0"
+
+		"angle_take_x_zoomed" 		"0.0"
+		"angle_take_y_zoomed" 		"630.0"
+		"angle_take_z_zoomed" 		"0.0"
+
+		"rotation_axis_x_zoomed" 	"180.0"
+		"rotation_axis_y_zoomed" 	"0.0"
+		"rotation_axis_z_zoomed" 	"0.0"
+
+		"rotation_speed" 		"50.0"
+
+		"item_name" 			"player_armor_chain_name"
+		"description" 			"player_armor_chain_description"
+		
+		"use_inventory_sound"		"Chain_Armor_Equip"
+
+		"light_inventory_pos_x" 	"-100.0"
+		"light_inventory_pos_y" 	"100.0"
+		"light_inventory_pos_z" 	"-30.0"
+
+		"light_inventory_dir_x" 	"1.0"
+		"light_inventory_dir_y" 	"0.0"
+		"light_inventory_dir_z" 	"0.0"
+
+		"light_inventory_color_r" 	"1.0"
+		"light_inventory_color_g" 	"1.0"
+		"light_inventory_color_b" 	"1.0"
+
+		"light_inventory_color_a" 	"1.0"
+
+		"light_inventory_radius" 			"500.0"
+		"light_inventory_hotspotradius" 		"10.0"
+		"light_inventory_mediumspotintensityfactor"	"0.2"	
+
+		 "quest_item"	"3"					
+	}
+
+	"entity_data"
+	{
+		"glinting"	 	"1"
+		"glint_ratio"		"0.8"		
+		
+		"armor_value"			"0.02"
+//		"presence_factor"		"2"
+//		"stealth_modifier"		"0.25"
+
+    		skills_required
+ 	 	{
+ 			"extra_health"	"1"
+ 		}
+	}
+}
