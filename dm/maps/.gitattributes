@@ -1,5 +1,0 @@
-Meast_MixedCity.bsp.bz2 filter=lfs diff=lfs merge=lfs -text
-L_Helms_Deep.bsp.bz2 filter=lfs diff=lfs merge=lfs -text
-dark_avalanche.bsp.bz2 filter=lfs diff=lfs merge=lfs -text
-dark_avalanche_bombmode.bsp.bz2 filter=lfs diff=lfs merge=lfs -text
-dark_dust2.bsp.bz2 filter=lfs diff=lfs merge=lfs -text
